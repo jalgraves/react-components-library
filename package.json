@@ -3,10 +3,11 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jalgraves"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "private": false,
   "type": "module",
   "files": [
     "dist"
@@ -25,6 +26,7 @@
     "react": "^18.2.0",
     "rollup": "^3.29.2",
     "rollup-plugin-dts": "^6.0.2",
+    "styled-components": "^6.0.8",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
