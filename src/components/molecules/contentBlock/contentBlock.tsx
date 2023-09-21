@@ -5,6 +5,7 @@ import ContentBlockProps from './types'
 
 
 const ContentSection = (props: ContentBlockProps) => {
+  console.log(props)
   return (
     <StyledContentBlock
       aria-details={props.ariaDetails || "StyledContentBlock"}
