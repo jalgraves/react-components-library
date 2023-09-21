@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
   StyledSlideMenu,
   StyledNavBar,
@@ -43,12 +43,12 @@ interface MainMenuBarProps {
   footer?: string
 }
 
-export const MainMenuBar = (props: MainMenuBarProps) => {
-  const menuList = <SlideMenuItems menuFontColor={props.menuFontColor} pages={linkProps(props.pages, 'menuList')} />
+const MainMenuBar = (props: MainMenuBarProps) => {
+  const menuList = <SlideMenuItems menuFontColor={props.menuFontColor} pages={linkProps(props.pages, "menuList")} />
   return(
     <StyledNavBar backgroundColor={props.barColor} aria-labelledby="Navigation bar">
       <StyledSlideMenu backgroundColor={props.menuColor} aria-labelledby="Slide menu">
-        <div className="slide_menu">
+        <div className="slideMenu">
         <SlideMenuLogo imgSource={props.slideMenuLogoImgPath} />
           <div className="menu_list">{menuList}</div>
           {toggleMenu("close")}
@@ -65,3 +65,5 @@ export const MainMenuBar = (props: MainMenuBarProps) => {
     </StyledNavBar>
   )
 }
+
+export default MainMenuBar
