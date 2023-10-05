@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jalgraves"
   },
-  "version": "1.0.4",
+  "version": "1.0.11",
   "description": "React components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -15,7 +15,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "pub": "npm rollup && npm publish"
   },
   "author": "",
   "license": "ISC",
@@ -30,12 +31,14 @@
     "@types/animejs": "^3.1.7",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.22",
+    "@types/react-test-renderer": "^18.0.3",
     "animejs": "^3.2.1",
     "jest": "^29.1.1",
     "jest-environment-jsdom": "^29.7.0",
     "jest-transform-css": "^6.0.1",
     "jest-transform-file": "^1.1.1",
     "react": "^18.2.0",
+    "react-test-renderer": "^18.2.0",
     "rollup": "^3.29.2",
     "rollup-plugin-dts": "^6.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",

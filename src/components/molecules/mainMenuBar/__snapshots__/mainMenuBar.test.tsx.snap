@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates snapshot 1`] = `
+<div
+  aria-details="NavBar"
+  className="sc-guDMob fmttLj"
+>
+  <div
+    aria-details="StyledSlideMenu"
+    className="sc-eDLKEg beAbiI"
+  >
+    <div
+      aria-details="slideMenuLinkList"
+      className="slideMenu slideMenuLinkList"
+    >
+      <div
+        aria-details="SlideMenuLogoImg"
+        id="slideMenuLogo"
+      >
+        <img
+          src="/bizz/buzz"
+        />
+      </div>
+      <div
+        aria-details="SliderLinks"
+        className="menuList slideMenuLinkList"
+      >
+        <div
+          className="sc-jTQDJr dqyPJP"
+        >
+          <a
+            className="animate"
+            href="index"
+            id="Home-mobile-link"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-house fa-fw "
+              data-icon="house"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={
+                {
+                  "color": "#fcba03",
+                  "fontSize": "1em",
+                }
+              }
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                fill="currentColor"
+                style={{}}
+              />
+            </svg>
+             
+            Home
+          </a>
+        </div>
+        <div
+          className="sc-jTQDJr dqyPJP"
+        >
+          <a
+            className="animate"
+            href="about"
+            id="About-mobile-link"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-info fa-fw "
+              data-icon="info"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={
+                {
+                  "color": "#fcba03",
+                  "fontSize": "1em",
+                }
+              }
+              viewBox="0 0 192 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z"
+                fill="currentColor"
+                style={{}}
+              />
+            </svg>
+             
+            About
+          </a>
+        </div>
+        <div
+          className="sc-jTQDJr dqyPJP"
+        >
+          <a
+            className="animate"
+            href="contact"
+            id="Contact-mobile-link"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-envelope fa-fw "
+              data-icon="envelope"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={
+                {
+                  "color": "#fcba03",
+                  "fontSize": "1em",
+                }
+              }
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                fill="currentColor"
+                style={{}}
+              />
+            </svg>
+             
+            Contact
+          </a>
+        </div>
+        <div
+          className="sc-jTQDJr dqyPJP"
+        >
+          <a
+            className="animate"
+            href="menu"
+            id="Menu-mobile-link"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-utensils fa-fw "
+              data-icon="utensils"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={
+                {
+                  "color": "#fcba03",
+                  "fontSize": "1em",
+                }
+              }
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"
+                fill="currentColor"
+                style={{}}
+              />
+            </svg>
+             
+            Menu
+          </a>
+        </div>
+        <div
+          className="sc-jTQDJr dqyPJP"
+        >
+          <a
+            className="animate"
+            href="parties"
+            id="Parties-mobile-link"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-users fa-fw "
+              data-icon="users"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={
+                {
+                  "color": "#fcba03",
+                  "fontSize": "1em",
+                }
+              }
+              viewBox="0 0 640 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"
+                fill="currentColor"
+                style={{}}
+              />
+            </svg>
+             
+            Parties
+          </a>
+        </div>
+        <div
+          className="sc-jTQDJr dqyPJP"
+        >
+          <a
+            className="animate"
+            href="https://www.facebook.com/DrDavisIceCream/"
+            id="Facebook-mobile-link"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-facebook fa-fw "
+              data-icon="facebook"
+              data-prefix="fab"
+              focusable="false"
+              role="img"
+              style={
+                {
+                  "color": "#fcba03",
+                  "fontSize": "1em",
+                }
+              }
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                fill="currentColor"
+                style={{}}
+              />
+            </svg>
+             
+            Facebook
+          </a>
+        </div>
+      </div>
+      <div
+        aria-details="hamburgerMenu"
+        className="sc-dmyDmy eKlSst"
+      >
+        <div
+          className="sc-hLQTFJ jfaAuN"
+        >
+          <button
+            className="menuClose"
+            id="close_menu"
+            onClick={[Function]}
+          >
+            Close Menu
+          </button>
+        </div>
+      </div>
+      <h2>
+        this is the bottom of the menu
+      </h2>
+    </div>
+  </div>
+  <div
+    aria-details="hamburgerMenu"
+    className="sc-dmyDmy eKlSst"
+  >
+    <button
+      className="hamburger"
+      id="open_menu"
+      onClick={[Function]}
+    >
+      Open Menu
+    </button>
+  </div>
+  <a
+    className="navBarLogo"
+    href="/"
+  >
+    <img
+      alt=""
+      src="/foo/bar"
+      style={{}}
+    />
+  </a>
+  <div
+    className="sc-beyTiQ laMLkB"
+  >
+    <nav
+      className="topNav"
+    >
+      <a
+        href="about"
+        id="About-link"
+      >
+        About
+      </a>
+      <a
+        href="contact"
+        id="Contact-link"
+      >
+        Contact
+      </a>
+      <a
+        href="menu"
+        id="Menu-link"
+      >
+        Menu
+      </a>
+      <a
+        href="parties"
+        id="Parties-link"
+      >
+        Parties
+      </a>
+    </nav>
+  </div>
+</div>
+`;

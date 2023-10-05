@@ -27,43 +27,30 @@ export interface HamburgerProps {
   hamburgerBeforeColor?: string
 }
 
-
-
-export interface MenuCloseProps {
-
-}
-
-export interface MenuLinkProps {
-  linkColor?: string
-  menuLinkHoverColor?: string
-  menuLinkFontFamily?: string
-}
-
-export interface NavBarProps {
-  navBarBoxShadow?: string
-  backgroundColor?: string
-  navBarBorderBottom?: string
-}
-
 export interface SlideMenuProps {
-  backgroundColor?: string
-  slideMenuBorder?: string
-  slideMenuListBorder?: string
-  slideMenuListBorderRadius?: string
-  slideMenuH2fontFamily?: string
-  slideMenuH2color?: string
+  ariaDetails?: any
+  children?: any
+  $backgroundColor?: string
+  border?: string
+  borderRadius?: string
+  slideMenuLinkList?: any
+  $linkListBorder?: string
+  $linkListBorderRadius?: string
+  $footerFontColor?: string
+  footerText?: string
+  $footerFontFamily?: string
+  $footerFontSize?: string
+  $fontColor?: string
+  $fontFamily?: string
+  $hoverColor?: string
+  href?: string
+  id?: any
+  icon?: string
+  text?: string
+  imgSource?: string
+  imgAltDescription?: string
+  pages?: any
+  menuType?: any
+  headerImgSource?: string
 }
 
-export interface TopNavProps {
-  topNavAcolor?: string
-  topNavAhoverColor?: string
-  topNavAfontFamily?: string
-  topNavLinks?: any
-  linkColor?: string
-  linkHoverColor?: string
-  linkFontFamily?: string
-  linkFontSize?: string
-  linkFontWeight?: string
-  linkLetterSpacing?: string
-  linkPadding?: string
-}

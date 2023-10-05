@@ -1,7 +1,13 @@
 module.exports = {
   roots: ['<rootDir>/src'],
   transform: {
-    '^.+\\.(t|j)sx?$': 'ts-jest',
+    '^.+\\.(t|j)sx?$': ['ts-jest',
+      {
+        tsconfig: {
+          allowJs: true,
+        }
+      }
+    ],
     '^.+\\.css$': 'jest-transform-css',
     '\\.(jpg|jpeg|png|gif|webp|svg)$': 'jest-transform-file',
   },
@@ -16,12 +22,5 @@ module.exports = {
   ],
   moduleNameMapper: {
     '^.+\\.css$': 'identity-obj-proxy',
-  },
-  globals: {
-    'ts-jest': {
-      tsconfig: {
-        allowJs: true,
-      },
-    },
-  },
-};
+  }
+}

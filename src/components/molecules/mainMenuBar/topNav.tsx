@@ -2,7 +2,7 @@ import React from 'react'
 import { StyledTopNav } from './styles'
 import { TopNavProps } from './types'
 
-export function linkProps(pages: any, menuType: string) {
+function linkProps(pages: any, menuType: string) {
   const pageProps = []
   let id = 0
   for (const page of Object.keys(pages)) {
@@ -15,16 +15,15 @@ export function linkProps(pages: any, menuType: string) {
 }
 
 interface NavBarLogoProps {
-  imgPath?: string
+  imgSource?: string
   imgStyles?: object
   staticUrl?: string
 }
 
 export const NavBarLogo = (props: NavBarLogoProps) => {
-  // var imgStyles = {position: 'absolute', padding: '.25em'}
   return (
-    <a href="/">
-      <img style={props.imgStyles} src={`${props.staticUrl}${props.imgPath}`}  alt="" />
+    <a href="/" className="navBarLogo">
+      <img style={props.imgStyles} src={props.imgSource}  alt="" />
     </a>
   )
 }
@@ -35,25 +34,30 @@ function TopNavBar(props: TopNavProps) {
   )
   return (
     <StyledTopNav 
-      linkColor={props.linkColor}
-      linkHoverColor={props.linkHoverColor}
+      $fontFamily={props.$fontFamily}
+      $linkcolor={props.$linkcolor}
+      $linkhovercolor={props.$linkhovercolor}
     >
-      <nav className="top_nav">{navBar}</nav>
+      <nav className="topNav">{navBar}</nav>
     </StyledTopNav>
   )
 }
 
 interface NavBarLinkProps {
+  ariaDetails?: string
+  fontFamily?: string
   pages: any
-  linkColor?: string
-  linkHoverColor?: string
+  linkcolor?: string
+  linkhovercolor?: string
+  imgStyle?: any
 }
 
 export const NavBarLinks = (props: NavBarLinkProps) => {
   return (
     <TopNavBar
-      linkColor={props.linkColor}
-      linkHoverColor={props.linkHoverColor}
+      $fontFamily={props.fontFamily}
+      $linkcolor={props.linkcolor}
+      $linkhovercolor={props.linkhovercolor}
       topNavLinks={linkProps(props.pages, 'topMenu')}
     />
   )

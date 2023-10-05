@@ -20,7 +20,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface IconProps {
-  iconName: string
+  iconName: any
   style?: object
 }
 
