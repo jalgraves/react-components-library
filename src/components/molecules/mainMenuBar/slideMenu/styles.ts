@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import {HamburgerProps, SlideMenuProps} from "./types"
-import SlideMenu from "./slideMenu"
 
 export const StyledHamburger = styled.div<HamburgerProps>`
 .hamburger {
@@ -74,21 +73,21 @@ export const StyledMenuClose = styled.div<SlideMenuProps>`
 `
 interface StyledSlideMenu {
   $backgroundColor?: string
-  border?: string
-  borderRadius?: string
+  $border?: string
+  $borderRadius?: string
   $footerFontSize?: string
   $footerFontColor?: string
   $footerFontFamily?: string
   $linkListBorder?: string
   $linkListBorderRadius?: string
+  $imgStyles?: any
 }
 
 export const StyledSlideMenu = styled.div<StyledSlideMenu>`
 .slideMenu {
   background-color: ${props => props.$backgroundColor || "red"};
-  border-radius: ${props => props.borderRadius || ".5em"};
-  border: ${props => props.border || "1px solid #ccc"};
-  display: flex;
+  border-radius: ${props => props.$borderRadius || ".5em"};
+  border: ${props => props.$border || "1px solid #ccc"};
   display: flex;
   flex-direction: column;
   left: -25rem;
@@ -98,13 +97,12 @@ export const StyledSlideMenu = styled.div<StyledSlideMenu>`
   width: 25rem;
   z-index: 1001;
   img {
-    margin: .5em auto;
-    padding: 1em 0;
-    display: flex;
-    width: 10rem;
-    max-height: unset;
-    left: 4rem;
-    top: 1rem;
+    display: ${props => props.$imgStyles.display ?? "flex"};
+    margin: ${props => props.$imgStyles.margin ?? ".5em auto"};
+    padding: ${props => props.$imgStyles.padding ?? "1em 0"};
+    max-width: ${props => props.$imgStyles.maxWidth ?? "85%"};
+    max-height: ${props => props.$imgStyles.maxHeight ?? "unset"};
+    width: ${props => props.$imgStyles.width ?? "unset"};
   }
   h2 {
     color: ${props => props.$footerFontColor};
@@ -130,23 +128,21 @@ export const StyledSlideMenu = styled.div<StyledSlideMenu>`
 `
 
 export const StyledLink = styled.div<SlideMenuProps>`
-  .slideMenuLinkList {
-    a {
-      color: ${props => props.$fontColor || "green"};
-      display: block;
-      font-family: ${props => props.$fontFamily || "unset"};
-      font-size: 1.5em;
-      font-weight: 700;
-      left: -17em;
-      letter-spacing: .15em;
-      margin: auto;
-      padding: .5em 0;
-      position: relative;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-    a:hover {
-      color: ${props => props.$hoverColor || "#000000"};
-    }
+  a {
+    color: ${props => props.$fontColor || "green"};
+    display: block;
+    font-family: ${props => props.$fontFamily || "unset"};
+    font-size: 1.5em;
+    font-weight: 700;
+    left: -17em;
+    letter-spacing: .15em;
+    margin: auto;
+    padding: .5em 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: ${props => props.$hoverColor || "#000000"};
   }
 `

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`nav bar snapshot 1`] = `
+<div
+  aria-details="NavBar"
+  className="sc-beyTiQ bjtWal"
+>
+  <nav
+    aria-details="NavBarLinks"
+    className="topNav"
+  >
+    <a
+      href="About"
+      id="About-mobile-link"
+    >
+      About
+    </a>
+    <a
+      href="Contact"
+      id="Contact-mobile-link"
+    >
+      Contact
+    </a>
+    <a
+      href="Menu"
+      id="Menu-mobile-link"
+    >
+      Menu
+    </a>
+    <a
+      href="Parties"
+      id="Parties-mobile-link"
+    >
+      Parties
+    </a>
+  </nav>
+</div>
+`;

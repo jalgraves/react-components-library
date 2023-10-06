@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jalgraves"
   },
-  "version": "1.0.11",
+  "version": "1.0.28",
   "description": "React components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -16,7 +16,7 @@
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
-    "pub": "npm rollup && npm publish"
+    "pub": "npm run rollup && npm publish"
   },
   "author": "",
   "license": "ISC",

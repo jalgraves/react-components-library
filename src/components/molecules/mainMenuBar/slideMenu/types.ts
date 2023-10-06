@@ -52,5 +52,6 @@ export interface SlideMenuProps {
   pages?: any
   menuType?: any
   headerImgSource?: string
+  headerImgStyles?: any
 }
 

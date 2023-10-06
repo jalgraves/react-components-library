@@ -2,12 +2,12 @@
 
 exports[`creates snapshot 1`] = `
 <div
-  aria-details="NavBar"
-  className="sc-guDMob fmttLj"
+  aria-details="MainMenuBar"
+  className="sc-beyTiQ icUznf"
 >
   <div
     aria-details="StyledSlideMenu"
-    className="sc-eDLKEg beAbiI"
+    className="sc-hLQTFJ eQYVS"
   >
     <div
       aria-details="slideMenuLinkList"
@@ -22,11 +22,11 @@ exports[`creates snapshot 1`] = `
         />
       </div>
       <div
-        aria-details="SliderLinks"
+        aria-details="SlideLinks"
         className="menuList slideMenuLinkList"
       >
         <div
-          className="sc-jTQDJr dqyPJP"
+          className="sc-eDLKEg cbAXbO"
         >
           <a
             className="animate"
@@ -60,7 +60,7 @@ exports[`creates snapshot 1`] = `
           </a>
         </div>
         <div
-          className="sc-jTQDJr dqyPJP"
+          className="sc-eDLKEg cbAXbO"
         >
           <a
             className="animate"
@@ -94,7 +94,7 @@ exports[`creates snapshot 1`] = `
           </a>
         </div>
         <div
-          className="sc-jTQDJr dqyPJP"
+          className="sc-eDLKEg cbAXbO"
         >
           <a
             className="animate"
@@ -128,7 +128,7 @@ exports[`creates snapshot 1`] = `
           </a>
         </div>
         <div
-          className="sc-jTQDJr dqyPJP"
+          className="sc-eDLKEg cbAXbO"
         >
           <a
             className="animate"
@@ -162,7 +162,7 @@ exports[`creates snapshot 1`] = `
           </a>
         </div>
         <div
-          className="sc-jTQDJr dqyPJP"
+          className="sc-eDLKEg cbAXbO"
         >
           <a
             className="animate"
@@ -196,7 +196,7 @@ exports[`creates snapshot 1`] = `
           </a>
         </div>
         <div
-          className="sc-jTQDJr dqyPJP"
+          className="sc-eDLKEg cbAXbO"
         >
           <a
             className="animate"
@@ -232,10 +232,10 @@ exports[`creates snapshot 1`] = `
       </div>
       <div
         aria-details="hamburgerMenu"
-        className="sc-dmyDmy eKlSst"
+        className="sc-guDMob htHXdH"
       >
         <div
-          className="sc-hLQTFJ jfaAuN"
+          className="sc-dmyDmy fxfRQI"
         >
           <button
             className="menuClose"
@@ -253,7 +253,7 @@ exports[`creates snapshot 1`] = `
   </div>
   <div
     aria-details="hamburgerMenu"
-    className="sc-dmyDmy eKlSst"
+    className="sc-guDMob htHXdH"
   >
     <button
       className="hamburger"
@@ -263,43 +263,46 @@ exports[`creates snapshot 1`] = `
       Open Menu
     </button>
   </div>
-  <a
-    className="navBarLogo"
-    href="/"
-  >
-    <img
-      alt=""
-      src="/foo/bar"
-      style={{}}
-    />
-  </a>
   <div
-    className="sc-beyTiQ laMLkB"
+    className="navBarLogo"
+  >
+    <a
+      href="/"
+    >
+      <img
+        src="/foo/bar"
+      />
+    </a>
+  </div>
+  <div
+    aria-details="NavBar"
+    className="sc-gLLuHO gniTN"
   >
     <nav
+      aria-details="NavBarLinks"
       className="topNav"
     >
       <a
-        href="about"
-        id="About-link"
+        href="About"
+        id="About-mobile-link"
       >
         About
       </a>
       <a
-        href="contact"
-        id="Contact-link"
+        href="Contact"
+        id="Contact-mobile-link"
       >
         Contact
       </a>
       <a
-        href="menu"
-        id="Menu-link"
+        href="Menu"
+        id="Menu-mobile-link"
       >
         Menu
       </a>
       <a
-        href="parties"
-        id="Parties-link"
+        href="Parties"
+        id="Parties-mobile-link"
       >
         Parties
       </a>

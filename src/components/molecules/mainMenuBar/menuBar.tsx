@@ -1,7 +1,7 @@
 import React from "react"
-import { StyledNavBar} from "./styles"
+import { StyledMainMenuBar } from "./styles"
 import { toggleMenu, SlideMenu } from "./slideMenu"
-import { NavBarLogo, NavBarLinks } from "./topNav"
+import { NavBar } from "./nav"
 
 interface MainMenuBarProps {
   ariaDetails?: string
@@ -9,16 +9,16 @@ interface MainMenuBarProps {
   fontColor?: string
   fontFamily?: string
   hoverColor?: string
-  linkcolor?: string
-  linkhovercolor?: string
-  menuFooterText?: string
   navBarFontColor?: string
   navBarFontFamily?: string
   navBarHoverColor?: string
-  navBarLogoImgSource?: string
-  navBarLogoImgStyles?: any
+  mainMenuBarImgSource?: string
+  mainMenuBarImgAlt?: string
+  mainMenuBarImgStyles?: any
+  mainMenuBarBorderBottom?: string
+  mainMenuBarBoxShadow?: string
   pages: any
-  slideMenuBackgroundColor?: string
+  slideMenuBackgroundColor: string
   slideMenuFontColor?: string
   slideMenuFontFamily?: string
   slideMenuFooterFontColor?: string
@@ -31,11 +31,37 @@ interface MainMenuBarProps {
   slideMenuLogoImgSource?: string
 }
 
+export interface NavBarLogoProps {
+  imgAlt?: string
+  imgSource?: string
+}
+
+const NavBarLogo = (props: NavBarLogoProps) => {
+  return (
+    <div className="navBarLogo">
+      <a href="/">
+        <img src={props.imgSource}  alt={props.imgAlt} />
+      </a>
+    </div>
+  )
+}
+
+
 const MainMenuBar = (props: MainMenuBarProps) => {
-  //console.log("MainMenuBar")
-  //console.log(props)
+  const defaultImgStyles = {
+    maxWidth: "75vw",
+    maxHeight: "3.5rem"
+  }
+  const navBarImgStyles = props.mainMenuBarImgStyles ? {...defaultImgStyles, ...props.mainMenuBarImgStyles} : defaultImgStyles
   return(
-    <StyledNavBar $backgroundColor={props.barColor} $fontFamily={props.fontFamily} $imgStyles={props.navBarLogoImgStyles} aria-details="NavBar">
+    <StyledMainMenuBar 
+      aria-details="MainMenuBar"
+      $backgroundColor={props.barColor} 
+      $borderBottom={props.mainMenuBarBorderBottom}
+      $boxShadow={props.mainMenuBarBoxShadow}
+      $fontFamily={props.fontFamily}
+      $imgStyles={navBarImgStyles}
+    >
       <SlideMenu 
         aria-details="NavBarSlideMenu"
         $backgroundColor={props.slideMenuBackgroundColor}
@@ -52,14 +78,14 @@ const MainMenuBar = (props: MainMenuBarProps) => {
         pages={props.pages}
       />
       {toggleMenu("open")}
-      <NavBarLogo imgSource={props.navBarLogoImgSource} imgStyles={props.navBarLogoImgStyles} />
-      <NavBarLinks
+      <NavBarLogo imgSource={props.mainMenuBarImgSource} imgAlt={props.mainMenuBarImgAlt} />
+      <NavBar
         fontFamily={props.navBarFontFamily || props.fontFamily}
-        linkcolor={props.navBarFontColor || props.fontColor}
-        linkhovercolor={props.navBarHoverColor || props.hoverColor}
+        fontColor={props.navBarFontColor || props.fontColor}
+        hoverColor={props.navBarHoverColor || props.hoverColor}
         pages={props.pages}
       />
-    </StyledNavBar>
+    </StyledMainMenuBar>
   )
 }
 

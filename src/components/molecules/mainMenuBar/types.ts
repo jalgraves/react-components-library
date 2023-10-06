@@ -14,9 +14,8 @@ export interface StyledNavBarProps {
   $fontFamily?: string
   $imgStyles?: any
   ariaDetails?: any
-  navBarBorderBottom?: string
-  navBarBoxShadow?: string
-  navBarImg?: any
+  $borderBottom?: string
+  $boxShadow?: string
 }
 
 

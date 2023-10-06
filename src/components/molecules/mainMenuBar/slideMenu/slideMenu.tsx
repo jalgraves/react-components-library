@@ -9,7 +9,7 @@ const iconStyle = {
   fontSize: '1em'
 }
 
-export const SliderMenuLink = (props: SlideMenuProps) => {
+export const SlideMenuLink = (props: SlideMenuProps) => {
   return (
     <StyledLink $fontColor={props.$fontColor} $fontFamily={props.$fontFamily} $hoverColor={props.$hoverColor} key={props.id}>
       <a id={`${props.text}-mobile-link`} href={props.href} className="animate">
@@ -18,13 +18,13 @@ export const SliderMenuLink = (props: SlideMenuProps) => {
   )
 }
 
-function SliderLinks(props: SlideMenuProps) {
+function SlideLinks(props: SlideMenuProps) {
   const sliderMenuItems = []
   let id = 0
   for (const page of Object.keys(props.pages)) {
     if (props.pages[page][props.menuType] === true) {
       sliderMenuItems.push(
-        <SliderMenuLink
+        <SlideMenuLink
           $fontColor={props.$fontColor}
           $fontFamily={props.$fontFamily}
           href={props.pages[page].name}
@@ -38,7 +38,7 @@ function SliderLinks(props: SlideMenuProps) {
     ++id
   }
   return (
-    <div aria-details="SliderLinks" className="menuList slideMenuLinkList">{sliderMenuItems}</div>
+    <div aria-details="SlideLinks" className="menuList slideMenuLinkList">{sliderMenuItems}</div>
   )
 }
 
@@ -51,22 +51,30 @@ const SlideMenuLogo = (props: SlideMenuProps) => {
 }
 
 const SlideMenu = (props: SlideMenuProps) => {
-  console.log(props)
+  const defaultImgStyles = {
+    margin: ".5em auto",
+    padding: "1em 0",
+    maxWidth: "85%",
+    maxHeight: "unset",
+    position: "absolute",
+  }
+  const menuHeaderImgStyles = props.headerImgStyles ? {...defaultImgStyles, ...props.headerImgStyles} : defaultImgStyles
   return(
     <StyledSlideMenu 
       aria-details="StyledSlideMenu"
       $backgroundColor={props.$backgroundColor}
-      border={props.border}
-      borderRadius={props.borderRadius}
+      $border={props.border}
+      $borderRadius={props.borderRadius}
       $linkListBorder={props.$linkListBorder}
       $linkListBorderRadius={props.$linkListBorderRadius}
       $footerFontFamily={props.$footerFontFamily}
       $footerFontColor={props.$footerFontColor}
       $footerFontSize={props.$footerFontSize}
+      $imgStyles={menuHeaderImgStyles}
     >
       <div aria-details="slideMenuLinkList" className="slideMenu slideMenuLinkList">
         <SlideMenuLogo imgSource={props.headerImgSource} />
-        <SliderLinks $fontColor={props.$fontColor} $fontFamily={props.$fontFamily} pages={props.pages} menuType="menuList" />
+        <SlideLinks $fontColor={props.$fontColor} $fontFamily={props.$fontFamily} pages={props.pages} menuType="menuList" />
         {toggleMenu("close")}
         <h2>{props.footerText}</h2>
       </div>

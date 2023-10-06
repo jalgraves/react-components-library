@@ -3,7 +3,7 @@
 exports[`slide menu snapshot 1`] = `
 <div
   aria-details="StyledSlideMenu"
-  className="sc-dmyDmy eGNmLn"
+  className="sc-dmyDmy fbfNqI"
 >
   <div
     aria-details="slideMenuLinkList"
@@ -18,11 +18,11 @@ exports[`slide menu snapshot 1`] = `
       />
     </div>
     <div
-      aria-details="SliderLinks"
+      aria-details="SlideLinks"
       className="menuList slideMenuLinkList"
     >
       <div
-        className="sc-hLQTFJ iLKDCX"
+        className="sc-hLQTFJ iJVUfB"
       >
         <a
           className="animate"
@@ -56,7 +56,7 @@ exports[`slide menu snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-hLQTFJ iLKDCX"
+        className="sc-hLQTFJ iJVUfB"
       >
         <a
           className="animate"
@@ -90,7 +90,7 @@ exports[`slide menu snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-hLQTFJ iLKDCX"
+        className="sc-hLQTFJ iJVUfB"
       >
         <a
           className="animate"
@@ -124,7 +124,7 @@ exports[`slide menu snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-hLQTFJ iLKDCX"
+        className="sc-hLQTFJ iJVUfB"
       >
         <a
           className="animate"
@@ -158,7 +158,7 @@ exports[`slide menu snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-hLQTFJ iLKDCX"
+        className="sc-hLQTFJ iJVUfB"
       >
         <a
           className="animate"
@@ -192,7 +192,7 @@ exports[`slide menu snapshot 1`] = `
         </a>
       </div>
       <div
-        className="sc-hLQTFJ iLKDCX"
+        className="sc-hLQTFJ iJVUfB"
       >
         <a
           className="animate"
