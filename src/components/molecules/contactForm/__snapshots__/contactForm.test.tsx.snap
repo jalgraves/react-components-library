@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contact form snapshot 1`] = `
+<div
+  className="sc-guDMob gPIblS"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Name
+    </label>
+    <input
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+    />
+    <label>
+      Email
+    </label>
+    <input
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+    />
+    <label>
+      Phone
+    </label>
+    <input
+      name="phone"
+      onBlur={[Function]}
+      onChange={[Function]}
+    />
+    <label>
+      Details
+    </label>
+    <textarea
+      name="details"
+      onBlur={[Function]}
+      onChange={[Function]}
+      rows={10}
+    />
+    <input
+      type="submit"
+    />
+  </form>
+</div>
+`;

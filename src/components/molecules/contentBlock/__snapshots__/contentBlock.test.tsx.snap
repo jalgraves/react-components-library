@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conteent block snapshot 1`] = `
+<div
+  aria-details="StyledContentBlock"
+  className="sc-beyTiQ sSfvf"
+/>
+`;

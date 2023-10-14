@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jalgraves"
   },
-  "version": "1.0.28",
+  "version": "1.0.42",
   "description": "React components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -38,6 +38,7 @@
     "jest-transform-css": "^6.0.1",
     "jest-transform-file": "^1.1.1",
     "react": "^18.2.0",
+    "react-hook-form": "^7.47.0",
     "react-test-renderer": "^18.2.0",
     "rollup": "^3.29.2",
     "rollup-plugin-dts": "^6.0.2",

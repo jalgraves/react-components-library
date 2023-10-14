@@ -1,28 +1,47 @@
 export default interface ContentBlockProps {
+  aDisplay?: any
+  aColor?: any
+  aFontFamily?: any
+  aFontSize?: any
+  aFontWeight?: any
+  aHoverColor?: any
+  aJustifyContent?: any
+  aLetterSpacing?: any
+  aLineHeight?: any
+  aMargin?: any
+  aMaxWidth?: any
+  aPadding?: any
   ariaDetails?: any
-  children?: any
+  articleColor?: any
+  articleDisplay?: any
+  articleFontFamily?: any
+  articleFontSize?: any
+  articleFontWeight?: any
+  articleJustifyContent?: any
+  articleLetterSpacing?: any
+  articleLineHeight?: any
+  articleMargin?: any
+  articleMaxWidth?: any
+  articlePadding?: any
+  articleTextAlign?: any
+  articleTextShadow?: any
+  articleTextTransform?: any
+  articleWidth?: any
+  aTextAlign?: any
+  aTextDecoration?: any
+  aTextShadow?: any
+  aTextTransform?: any
   backgroundColor?: any
+  border?: any
+  borderBottom?: any
   borderRadius?: any
   borderTop?: any
-  borderBottom?: any
-  fontColor?: any
+  children?: any
   display?: any
   flexFlow?: any
+  fontColor?: any
   fontFamily?: any
-  lineHeight?: any
-  margin?: any
-  maxWidth?: any
-  outline?: any
-  padding?: any
-  width?: any
-  textAlign?: any
-  headerImgMaxWidth?: any
-  headerImgPadding?: any
   footerImgMaxWidth?: any
-  border?: any
-  sectionWidth?: any
-  sectionMargin?: any
-  sectionPadding?: any
   h1Color?: any
   h1Display?: any
   h1FontFamily?: any
@@ -107,36 +126,13 @@ export default interface ContentBlockProps {
   h6TextAlign?: any
   h6TextShadow?: any
   h6TextTransform?: any
-  aFontColor?: any
-  aDisplay?: any
-  aFontFamily?: any
-  aFontSize?: any
-  aFontWeight?: any
-  aHoverColor?: any
-  aJustifyContent?: any
-  aLetterSpacing?: any
-  aLineHeight?: any
-  aMargin?: any
-  aMaxWidth?: any
-  aPadding?: any
-  aTextAlign?: any
-  aTextShadow?: any
-  aTextTransform?: any
-  articleColor?: any
-  articleDisplay?: any
-  articleFontFamily?: any
-  articleFontSize?: any
-  articleFontWeight?: any
-  articleJustifyContent?: any
-  articleLetterSpacing?: any
-  articleLineHeight?: any
-  articleMargin?: any
-  articleMaxWidth?: any
-  articlePadding?: any
-  articleTextAlign?: any
-  articleTextShadow?: any
-  articleTextTransform?: any
-  articleWidth?: any
+  headerImgMaxWidth?: any
+  headerImgPadding?: any
+  lineHeight?: any
+  margin?: any
+  maxWidth?: any
+  outline?: any
+  padding?: any
   pColor?: any
   pDisplay?: any
   pFontFamily?: any
@@ -151,4 +147,165 @@ export default interface ContentBlockProps {
   pTextAlign?: any
   pTextShadow?: any
   pTextTransform?: any
+  sectionMargin?: any
+  sectionPadding?: any
+  sectionWidth?: any
+  textAlign?: any
+  width?: any
+}
+
+export default interface StyledContentBlockProps {
+  $aDisplay?: any
+  $aColor?: any
+  $aFontFamily?: any
+  $aFontSize?: any
+  $aFontWeight?: any
+  $aHoverColor?: any
+  $aJustifyContent?: any
+  $aLetterSpacing?: any
+  $aLineHeight?: any
+  $aMargin?: any
+  $aMaxWidth?: any
+  $aPadding?: any
+  $articleColor?: any
+  $articleDisplay?: any
+  $articleFontFamily?: any
+  $articleFontSize?: any
+  $articleFontWeight?: any
+  $articleJustifyContent?: any
+  $articleLetterSpacing?: any
+  $articleLineHeight?: any
+  $articleMargin?: any
+  $articleMaxWidth?: any
+  $articlePadding?: any
+  $articleTextAlign?: any
+  $articleTextShadow?: any
+  $articleTextTransform?: any
+  $articleWidth?: any
+  $aTextAlign?: any
+  $aTextDecoration?: any
+  $aTextShadow?: any
+  $aTextTransform?: any
+  $backgroundColor?: any
+  $border?: any
+  $borderBottom?: any
+  $borderRadius?: any
+  $borderTop?: any
+  $display?: any
+  $flexFlow?: any
+  $fontColor?: any
+  $fontFamily?: any
+  $footerImgMaxWidth?: any
+  $h1Color?: any
+  $h1Display?: any
+  $h1FontFamily?: any
+  $h1FontSize?: any
+  $h1FontWeight?: any
+  $h1JustifyContent?: any
+  $h1LetterSpacing?: any
+  $h1LineHeight?: any
+  $h1Margin?: any
+  $h1MaxWidth?: any
+  $h1Padding?: any
+  $h1TextAlign?: any
+  $h1TextShadow?: any
+  $h1TextTransform?: any
+  $h2Color?: any
+  $h2Display?: any
+  $h2FontFamily?: any
+  $h2FontSize?: any
+  $h2FontWeight?: any
+  $h2JustifyContent?: any
+  $h2LetterSpacing?: any
+  $h2LineHeight?: any
+  $h2Margin?: any
+  $h2MaxWidth?: any
+  $h2Padding?: any
+  $h2TextAlign?: any
+  $h2TextShadow?: any
+  $h2TextTransform?: any
+  $h3Color?: any
+  $h3Display?: any
+  $h3FontFamily?: any
+  $h3FontSize?: any
+  $h3FontWeight?: any
+  $h3JustifyContent?: any
+  $h3LetterSpacing?: any
+  $h3LineHeight?: any
+  $h3Margin?: any
+  $h3MaxWidth?: any
+  $h3Padding?: any
+  $h3TextAlign?: any
+  $h3TextShadow?: any
+  $h3TextTransform?: any
+  $h4Color?: any
+  $h4Display?: any
+  $h4FontFamily?: any
+  $h4FontSize?: any
+  $h4FontWeight?: any
+  $h4JustifyContent?: any
+  $h4LetterSpacing?: any
+  $h4LineHeight?: any
+  $h4Margin?: any
+  $h4MaxWidth?: any
+  $h4Padding?: any
+  $h4TextAlign?: any
+  $h4TextShadow?: any
+  $h4TextTransform?: any
+  $h5Color?: any
+  $h5Display?: any
+  $h5FontFamily?: any
+  $h5FontSize?: any
+  $h5FontWeight?: any
+  $h5JustifyContent?: any
+  $h5LetterSpacing?: any
+  $h5LineHeight?: any
+  $h5Margin?: any
+  $h5MaxWidth?: any
+  $h5Padding?: any
+  $h5TextAlign?: any
+  $h5TextShadow?: any
+  $h5TextTransform?: any
+  $h6Color?: any
+  $h6Display?: any
+  $h6FontFamily?: any
+  $h6FontSize?: any
+  $h6FontWeight?: any
+  $h6JustifyContent?: any
+  $h6LetterSpacing?: any
+  $h6LineHeight?: any
+  $h6Margin?: any
+  $h6MaxWidth?: any
+  $h6Padding?: any
+  $h6TextAlign?: any
+  $h6TextShadow?: any
+  $h6TextTransform?: any
+  $headerImgMaxWidth?: any
+  $headerImgPadding?: any
+  $lineHeight?: any
+  $margin?: any
+  $maxWidth?: any
+  $outline?: any
+  $padding?: any
+  $pColor?: any
+  $pDisplay?: any
+  $pFontFamily?: any
+  $pFontSize?: any
+  $pFontWeight?: any
+  $pJustifyContent?: any
+  $pLetterSpacing?: any
+  $pLineHeight?: any
+  $pMargin?: any
+  $pMaxWidth?: any
+  $pPadding?: any
+  $pTextAlign?: any
+  $pTextShadow?: any
+  $pTextTransform?: any
+  $sectionMargin?: any
+  $sectionPadding?: any
+  $sectionWidth?: any
+  $textAlign?: any
+  $width?: any
+  ariaDetails?: any
+  children?: any
 }
