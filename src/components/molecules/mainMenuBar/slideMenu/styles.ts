@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {HamburgerProps, SlideMenuProps} from "./types"
+import {HamburgerProps, SlideMenuProps, StyledSlideMenuProps} from "./types"
 
 export const StyledHamburger = styled.div<HamburgerProps>`
 .hamburger {
@@ -71,19 +71,8 @@ export const StyledMenuClose = styled.div<SlideMenuProps>`
   transform: rotate(-45deg);
 }
 `
-interface StyledSlideMenu {
-  $backgroundColor?: string
-  $border?: string
-  $borderRadius?: string
-  $footerFontSize?: string
-  $footerFontColor?: string
-  $footerFontFamily?: string
-  $linkListBorder?: string
-  $linkListBorderRadius?: string
-  $imgStyles?: any
-}
 
-export const StyledSlideMenu = styled.div<StyledSlideMenu>`
+export const StyledSlideMenu = styled.div<StyledSlideMenuProps>`
 .slideMenu {
   background-color: ${props => props.$backgroundColor || "red"};
   border-radius: ${props => props.$borderRadius || ".5em"};
@@ -127,7 +116,7 @@ export const StyledSlideMenu = styled.div<StyledSlideMenu>`
 }
 `
 
-export const StyledLink = styled.div<SlideMenuProps>`
+export const StyledLink = styled.div<StyledSlideMenuProps>`
   a {
     color: ${props => props.$fontColor || "green"};
     display: block;

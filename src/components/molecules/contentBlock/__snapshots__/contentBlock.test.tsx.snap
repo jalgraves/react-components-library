@@ -2,7 +2,7 @@
 
 exports[`conteent block snapshot 1`] = `
 <div
-  aria-details="StyledContentBlock"
+  aria-details="TestContentSection"
   className="sc-beyTiQ sSfvf"
 />
 `;

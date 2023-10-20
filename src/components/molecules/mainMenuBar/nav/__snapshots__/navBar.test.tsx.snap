@@ -2,7 +2,7 @@
 
 exports[`nav bar snapshot 1`] = `
 <div
-  aria-details="NavBar"
+  aria-details="TestNavBar"
   className="sc-beyTiQ bjtWal"
 >
   <nav

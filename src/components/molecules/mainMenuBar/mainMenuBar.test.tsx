@@ -18,9 +18,9 @@ describe(MainMenuBar, () => {
         pages={config.pages}
         slideMenuBackgroundColor={config.colors.navBarMenuBackgroundGray}
         slideMenuFontColor="red"
+        slideMenuFooterText="this is the bottom of the menu"
         slideMenuLinkListBorder={`.1rem solid ${config.colors.navBarBlue}`}
         slideMenuLinkListBorderRadius="4px"
-        slideMenuFooterText="this is the bottom of the menu"
         slideMenuLogoImgSource={`${config.static_url}/img/logos/drdavisicecream_logo.png`}
       />
     )
@@ -31,23 +31,28 @@ describe(MainMenuBar, () => {
 
 it('creates snapshot', () => {
   const component = renderer.create(
-    <MainMenuBar 
-        barColor="green"
-        slideMenuBackgroundColor="blue"
-        slideMenuFontColor="red"
-        fontColor="yellow"
-        hoverColor="purple"
-        mainMenuBarImgSource="/foo/bar"
-        mainMenuBarImgStyles={{}}
-        mainMenuBarBorderBottom="1px solid red"
-        mainMenuBarBoxShadow="1px 1px 1px 1px red"
-        slideMenuLogoImgSource="/bizz/buzz"
-        pages={config.pages}
-        slideMenuFooterText="this is the bottom of the menu"
-        fontFamily="'Raleway', Arial, sans-serif"
-      />
+    <MainMenuBar
+      ariaDetails="TestMainMenuBar" 
+      barColor="green"
+      fontColor="yellow"
+      fontFamily="'Raleway', Arial, sans-serif"
+      hoverColor="purple"
+      mainMenuBarBorderBottom="1px solid red"
+      mainMenuBarBoxShadow="1px 1px 1px 1px red"
+      mainMenuBarImgSource="/foo/bar"
+      mainMenuBarImgStyles={{}}
+      navBarAriaDetails="TestMainMenuBarNav"
+      pages={config.pages}
+      slideMenuAriaDetails="TestMainMenuBarSlideMenu"
+      slideMenuBackgroundColor="blue"
+      slideMenuFontColor="red"
+      slideMenuFooterText="this is the bottom of the menu"
+      slideMenuLogoImgSource="/bizz/buzz"
+    />
   )
-  let tree = component.toJSON()
-  console.log(tree)
+  let tree = component.toJSON() as any
+  console.log("MainMenuBar")
+  console.log(tree.props)
+  console.log(tree.children)
   expect(tree).toMatchSnapshot()
 })

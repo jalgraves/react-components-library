@@ -5,16 +5,19 @@ import { config } from "../../../../utils/index"
 
 it('nav bar snapshot', () => {
   const component = renderer.create(
-    <NavBar 
+    <NavBar
+      ariaDetails="TestNavBar" 
       fontColor="cyan"
       fontFamily="Arial"
       hoverColor="yellow"
-      pages={config.pages}
-      imgSource={`${config.static_url}/img/logos/drdavisicecream_navbar_logo.gif`}
       imgAlt="Dr. Davis Ice Cream Logo"
+      imgSource={`${config.static_url}/img/logos/drdavisicecream_navbar_logo.gif`}
+      pages={config.pages}
     />
-  );
-  var tree = component.toJSON()
-  console.log(tree)
+  )
+  let tree = component.toJSON() as any
+  console.log("NavBar")
+  console.log(tree.props)
+  console.log(tree.children)
   expect(tree).toMatchSnapshot()
 })

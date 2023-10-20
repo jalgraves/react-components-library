@@ -2,7 +2,7 @@
 
 exports[`slide menu snapshot 1`] = `
 <div
-  aria-details="StyledSlideMenu"
+  aria-details="TestSlideMenu"
   className="sc-dmyDmy fbfNqI"
 >
   <div

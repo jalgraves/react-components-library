@@ -9,6 +9,7 @@ interface MainMenuBarProps {
   fontColor?: string
   fontFamily?: string
   hoverColor?: string
+  navBarAriaDetails?: string
   navBarFontColor?: string
   navBarFontFamily?: string
   navBarHoverColor?: string
@@ -18,6 +19,7 @@ interface MainMenuBarProps {
   mainMenuBarBorderBottom?: string
   mainMenuBarBoxShadow?: string
   pages: any
+  slideMenuAriaDetails?: string
   slideMenuBackgroundColor: string
   slideMenuFontColor?: string
   slideMenuFontFamily?: string
@@ -55,7 +57,7 @@ const MainMenuBar = (props: MainMenuBarProps) => {
   const navBarImgStyles = props.mainMenuBarImgStyles ? {...defaultImgStyles, ...props.mainMenuBarImgStyles} : defaultImgStyles
   return(
     <StyledMainMenuBar 
-      aria-details="MainMenuBar"
+      aria-details={props.ariaDetails || "MainMenuBar"}
       $backgroundColor={props.barColor} 
       $borderBottom={props.mainMenuBarBorderBottom}
       $boxShadow={props.mainMenuBarBoxShadow}
@@ -63,23 +65,24 @@ const MainMenuBar = (props: MainMenuBarProps) => {
       $imgStyles={navBarImgStyles}
     >
       <SlideMenu 
-        aria-details="NavBarSlideMenu"
-        $backgroundColor={props.slideMenuBackgroundColor}
-        $fontColor={props.slideMenuFontColor || props.fontColor}
-        $fontFamily={props.slideMenuFontFamily || props.fontFamily}
-        $footerFontColor={props.slideMenuFooterFontColor || props.fontColor}
-        $footerFontFamily={props.slideMenuFooterFontFamily || props.fontFamily}
-        $footerFontSize={props.slideMenuFooterFontSize}
-        $hoverColor={props.slideMenuHoverColor || props.hoverColor}
-        $linkListBorder={props.slideMenuLinkListBorder}
-        $linkListBorderRadius={props.slideMenuLinkListBorderRadius}
+        ariaDetails={props.slideMenuAriaDetails || "MainMenuBarSlideMenu"}
+        backgroundColor={props.slideMenuBackgroundColor}
+        fontColor={props.slideMenuFontColor || props.fontColor}
+        fontFamily={props.slideMenuFontFamily || props.fontFamily}
+        footerFontColor={props.slideMenuFooterFontColor || props.fontColor}
+        footerFontFamily={props.slideMenuFooterFontFamily || props.fontFamily}
+        footerFontSize={props.slideMenuFooterFontSize}
         footerText={props.slideMenuFooterText}
         headerImgSource={props.slideMenuLogoImgSource}
+        hoverColor={props.slideMenuHoverColor || props.hoverColor}
+        linkListBorder={props.slideMenuLinkListBorder}
+        linkListBorderRadius={props.slideMenuLinkListBorderRadius}
         pages={props.pages}
       />
       {toggleMenu("open")}
       <NavBarLogo imgSource={props.mainMenuBarImgSource} imgAlt={props.mainMenuBarImgAlt} />
       <NavBar
+        ariaDetails={props.navBarAriaDetails || "MainMenuBarNavBar"}
         fontFamily={props.navBarFontFamily || props.fontFamily}
         fontColor={props.navBarFontColor || props.fontColor}
         hoverColor={props.navBarHoverColor || props.hoverColor}

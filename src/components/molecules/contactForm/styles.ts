@@ -45,9 +45,14 @@ form {
 }
 
 p {
-  color: ${props => props.$errorFontColor || "#bf1650"};
-  font-family: ${props => props.$errorFontFamily || "inherit"};
-  text-transform: ${props => props.$errorTextTransform || "unset"};
+  color: ${props => props.$pFontColor || "#bf1650"};
+  font-family: ${props => props.$pFontFamily || "inherit"};
+  font-size: ${props => props.$pFontSize || "14px"};
+  font-weight: ${props => props.$pFontWeight || "600"};
+  letter-spacing: ${props => props.$pLetterSpacing || "unset"};
+  margin: ${props => props.$pMargin || "0 auto"};
+  padding: ${props => props.$pPadding || "0"};
+  text-transform: ${props => props.$pTextTransform || "unset"};
 }
 
 p::before {

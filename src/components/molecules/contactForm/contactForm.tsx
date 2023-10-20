@@ -35,6 +35,7 @@ function ContactForm(props: FormProps) {
 
   return (
     <StyledContactForm
+      aria-details={props.ariaDetails || "undefined"}
       $buttonColor={props.buttonColor}
       $buttonFontColor={props.buttonFontColor}
       $buttonFontFamily={props.buttonFontFamily}
@@ -44,10 +45,6 @@ function ContactForm(props: FormProps) {
       $buttonMarginTop={props.buttonMarginTop}
       $buttonPadding={props.buttonPadding}
       $display={props.display}
-      $errorFontColor={props.errorFontColor}
-      $errorFontFamily={props.errorFontFamily}
-      $errorLetterSpacing={props.errorLetterSpacing}
-      $errorTextTransform={props.errorTextTransform}
       $flexFlow={props.flexFlow}
       $fontFamily={props.fontFamily}
       $formMargin={props.formMargin}
@@ -65,6 +62,14 @@ function ContactForm(props: FormProps) {
       $margin={props.margin}
       $maxWidth={props.maxWidth}
       $padding={props.padding}
+      $pFontColor={props.pFontColor}
+      $pFontFamily={props.pFontFamily}
+      $pFontSize={props.pFontSize}
+      $pFontWeight={props.pFontWeight}
+      $pLetterSpacing={props.pLetterSpacing}
+      $pMargin={props.pMargin}
+      $pPadding={props.pPadding}
+      $pTextTransform={props.pTextTransform}
       $textareaFontSize={props.textareaFontSize}
       $textTransform={props.textTransform}
       $width={props.width}
@@ -82,7 +87,7 @@ function ContactForm(props: FormProps) {
             pattern: /^[A-Z a-z]+$/i
           })}
         />
-        {errors?.name?.type === "required" && <p>This field is required</p>}
+        {errors?.name?.type === "required" && <p>{props.requiredFieldError || "This field is required"}</p>}
         {errors?.name?.type === "maxLength" && (
           <p>Name cannot exceed 190 characters</p>
         )}
@@ -96,18 +101,18 @@ function ContactForm(props: FormProps) {
             pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
             })}
         />
-        {errors?.email?.type === "required" && <p>This field is required</p>}
+        {errors?.email?.type === "required" && <p>{props.requiredFieldError || "This field is required"}</p>}
         {errors?.email?.type === "pattern" && (
-          <p>Invalid email address</p>
+          <p>{props.invalidEmailError || "Invalid email address"}</p>
         )}
         <label>Phone</label>
         <input {...register("phone", { pattern: /^[0-9-]+$/i })} />
         {errors.phone && (
-          <p>Invalid phone number</p>
+          <p>{props.invalidPhoneError || "Invalid phone number"}</p>
         )}
         <label>Details</label>
         <textarea rows={10} {...register("details", { required: true })}/>
-        {errors?.details?.type === "required" && <p>This field is required</p>}
+        {errors?.details?.type === "required" && <p>{props.requiredFieldError || "This field is required"}</p>}
         <input type="submit" />
       </form>
       }

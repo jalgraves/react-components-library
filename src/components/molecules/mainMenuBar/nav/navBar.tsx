@@ -25,6 +25,7 @@ function NavBarLinks(props: NavBarLinksProps) {
 }
 
 interface NavBarProps {
+  ariaDetails?: string
   fontColor?: string
   fontFamily?: string
   hoverColor?: string
@@ -38,7 +39,7 @@ interface NavBarProps {
 function NavBar(props: NavBarProps) {
   return (
     <StyledNavBar
-      aria-details="NavBar" 
+      aria-details={props.ariaDetails || "NavBar"} 
       $fontFamily={props.fontFamily}
       $fontColor={props.fontColor}
       $hoverColor={props.hoverColor}

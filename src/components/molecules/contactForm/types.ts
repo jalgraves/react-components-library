@@ -34,10 +34,6 @@ export interface StyledContactFormProps {
   $buttonPadding?: string
   $buttonTextTransform?: string
   $display?: string
-  $errorFontColor?: string
-  $errorFontFamily?: string
-  $errorLetterSpacing?: string
-  $errorTextTransform?: string
   $flexFlow?: string
   $fontFamily?: string
   $formMargin?: string
@@ -55,12 +51,21 @@ export interface StyledContactFormProps {
   $margin?: string
   $maxWidth?: string
   $padding?: string
+  $pFontColor?: string
+  $pFontFamily?: string
+  $pFontSize?: string
+  $pFontWeight?: string
+  $pLetterSpacing?: string
+  $pMargin?: string
+  $pPadding?: string
+  $pTextTransform?: string
   $textareaFontSize?: string
   $textTransform?: string
   $width?: string
 }
 
 export interface FormProps {
+  ariaDetails?: string
   buttonColor?: string
   buttonFontColor?: string
   buttonFontFamily?: string
@@ -73,15 +78,13 @@ export interface FormProps {
   buttonTextTransform?: string
   contactReply: string
   display?: string
-  errorFontColor?: string
-  errorFontFamily?: string
-  errorLetterSpacing?: string
-  errorTextTransform?: string
   flexFlow?: string
   fontFamily?: string
   formMargin?: string
   formWidth?: string
   inputFontSize?: string
+  invalidEmailError?: string
+  invalidPhoneError?: string
   labelDisplay?: string
   labelFontColor?: string
   labelFontFamily?: string
@@ -94,6 +97,15 @@ export interface FormProps {
   margin?: string
   maxWidth?: string
   padding?: string
+  pFontColor?: string
+  pFontFamily?: string
+  pFontSize?: string
+  pFontWeight?: string
+  pLetterSpacing?: string
+  pMargin?: string
+  pPadding?: string
+  pTextTransform?: string
+  requiredFieldError?: string
   submitButtonStyles?: any
   textareaColumns?: number
   textareaFontSize?: string

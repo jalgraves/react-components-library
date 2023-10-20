@@ -29,29 +29,43 @@ export interface HamburgerProps {
 
 export interface SlideMenuProps {
   ariaDetails?: any
-  children?: any
-  $backgroundColor?: string
+  backgroundColor?: string
   border?: string
   borderRadius?: string
-  slideMenuLinkList?: any
-  $linkListBorder?: string
-  $linkListBorderRadius?: string
-  $footerFontColor?: string
+  children?: any
+  fontColor?: string
+  fontFamily?: string
+  footerFontColor?: string
+  footerFontFamily?: string
+  footerFontSize?: string
   footerText?: string
-  $footerFontFamily?: string
-  $footerFontSize?: string
-  $fontColor?: string
-  $fontFamily?: string
-  $hoverColor?: string
-  href?: string
-  id?: any
-  icon?: string
-  text?: string
-  imgSource?: string
-  imgAltDescription?: string
-  pages?: any
-  menuType?: any
   headerImgSource?: string
   headerImgStyles?: any
+  hoverColor?: string
+  href?: string
+  icon?: string
+  id?: any
+  imgAltDescription?: string
+  imgSource?: string
+  linkListBorder?: string
+  linkListBorderRadius?: string
+  menuType?: any
+  pages?: any
+  slideMenuLinkList?: any
+  text?: string
 }
 
+export interface StyledSlideMenuProps {
+  $backgroundColor?: string
+  $border?: string
+  $borderRadius?: string
+  $fontColor?: string
+  $fontFamily?: string
+  $footerFontColor?: string
+  $footerFontFamily?: string
+  $footerFontSize?: string
+  $hoverColor?: string
+  $imgStyles?: any
+  $linkListBorder?: string
+  $linkListBorderRadius?: string
+}

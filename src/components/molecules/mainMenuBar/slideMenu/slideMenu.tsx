@@ -11,7 +11,7 @@ const iconStyle = {
 
 export const SlideMenuLink = (props: SlideMenuProps) => {
   return (
-    <StyledLink $fontColor={props.$fontColor} $fontFamily={props.$fontFamily} $hoverColor={props.$hoverColor} key={props.id}>
+    <StyledLink $fontColor={props.fontColor} $fontFamily={props.fontFamily} $hoverColor={props.hoverColor} key={props.id}>
       <a id={`${props.text}-mobile-link`} href={props.href} className="animate">
       <Icon iconName={props.icon} style={iconStyle} /> {props.text}</a>
     </StyledLink>
@@ -25,8 +25,8 @@ function SlideLinks(props: SlideMenuProps) {
     if (props.pages[page][props.menuType] === true) {
       sliderMenuItems.push(
         <SlideMenuLink
-          $fontColor={props.$fontColor}
-          $fontFamily={props.$fontFamily}
+          fontColor={props.fontColor}
+          fontFamily={props.fontFamily}
           href={props.pages[page].name}
           id={id}
           icon={props.pages[page].icon}
@@ -61,20 +61,20 @@ const SlideMenu = (props: SlideMenuProps) => {
   const menuHeaderImgStyles = props.headerImgStyles ? {...defaultImgStyles, ...props.headerImgStyles} : defaultImgStyles
   return(
     <StyledSlideMenu 
-      aria-details="StyledSlideMenu"
-      $backgroundColor={props.$backgroundColor}
+      aria-details={props.ariaDetails || "StyledSlideMenu"}
+      $backgroundColor={props.backgroundColor}
       $border={props.border}
       $borderRadius={props.borderRadius}
-      $linkListBorder={props.$linkListBorder}
-      $linkListBorderRadius={props.$linkListBorderRadius}
-      $footerFontFamily={props.$footerFontFamily}
-      $footerFontColor={props.$footerFontColor}
-      $footerFontSize={props.$footerFontSize}
+      $linkListBorder={props.linkListBorder}
+      $linkListBorderRadius={props.linkListBorderRadius}
+      $footerFontFamily={props.footerFontFamily}
+      $footerFontColor={props.footerFontColor}
+      $footerFontSize={props.footerFontSize}
       $imgStyles={menuHeaderImgStyles}
     >
       <div aria-details="slideMenuLinkList" className="slideMenu slideMenuLinkList">
         <SlideMenuLogo imgSource={props.headerImgSource} />
-        <SlideLinks $fontColor={props.$fontColor} $fontFamily={props.$fontFamily} pages={props.pages} menuType="menuList" />
+        <SlideLinks fontColor={props.fontColor} fontFamily={props.fontFamily} pages={props.pages} menuType="menuList" />
         {toggleMenu("close")}
         <h2>{props.footerText}</h2>
       </div>

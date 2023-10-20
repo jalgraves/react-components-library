@@ -4,7 +4,7 @@ import { render } from "@testing-library/react"
 import Icon from "./icon"
 
 describe(Icon, () => {
-  it('renders button without crashing', () => {
+  it('renders icon without crashing', () => {
     render(<Icon  iconName="faBeer" />)
     expect(true)
   })

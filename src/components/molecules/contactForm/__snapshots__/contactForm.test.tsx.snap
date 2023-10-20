@@ -2,7 +2,8 @@
 
 exports[`contact form snapshot 1`] = `
 <div
-  className="sc-guDMob gPIblS"
+  aria-details="TestContactForm"
+  className="sc-guDMob bbhHqd"
 >
   <form
     onSubmit={[Function]}

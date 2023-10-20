@@ -2,11 +2,11 @@
 
 exports[`creates snapshot 1`] = `
 <div
-  aria-details="MainMenuBar"
+  aria-details="TestMainMenuBar"
   className="sc-beyTiQ icUznf"
 >
   <div
-    aria-details="StyledSlideMenu"
+    aria-details="TestMainMenuBarSlideMenu"
     className="sc-hLQTFJ eQYVS"
   >
     <div
@@ -275,7 +275,7 @@ exports[`creates snapshot 1`] = `
     </a>
   </div>
   <div
-    aria-details="NavBar"
+    aria-details="TestMainMenuBarNav"
     className="sc-fsYfxw EwlF"
   >
     <nav
