@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog form snapshot 1`] = `
+<div
+  aria-details="TestBlogForm"
+  className="sc-beyTiQ dnODmx"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Title
+    </label>
+    <input
+      name="title"
+      onBlur={[Function]}
+      onChange={[Function]}
+    />
+    <label>
+      Author
+    </label>
+    <input
+      name="author"
+      onBlur={[Function]}
+      onChange={[Function]}
+    />
+    <label>
+      Summary
+    </label>
+    <textarea
+      name="summary"
+      onBlur={[Function]}
+      onChange={[Function]}
+      rows={20}
+    />
+    <label>
+      Post
+    </label>
+    <textarea
+      name="body"
+      onBlur={[Function]}
+      onChange={[Function]}
+      rows={20}
+    />
+    <input
+      type="submit"
+    />
+  </form>
+</div>
+`;

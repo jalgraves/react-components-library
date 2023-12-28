@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jalgraves"
   },
-  "version": "1.0.45",
+  "version": "1.0.46",
   "description": "React components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

@@ -11,6 +11,11 @@ npm/rollup:
 npm/publish:
 	npm publish
 
+
+## Run jest tests
+npm/test:
+	npm run test
+
 publish: clean npm/rollup npm/publish
 
 ## Show available commands
