@@ -79,6 +79,7 @@ export interface FormProps {
   pLetterSpacing?: string
   pMargin?: string
   pPadding?: string
+  postPath?: string
   pTextTransform?: string
   requiredFieldError?: string
   submitButtonStyles?: any

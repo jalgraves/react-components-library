@@ -25,9 +25,9 @@ function BlogForm(props: FormProps) {
     const heads: any = {
       "Content-Type": "application/json"
     }
-    fetch("blog/create-post", {method: "POST", credentials: "include", body: JSON.stringify(data), headers: heads})
+    fetch(`${props.postPath || "blog/create-post"}`, {method: "POST", credentials: "include", body: JSON.stringify(data), headers: heads})
       .then(response => response.json())
-      .then(data => setReply(data.msg))
+      .then(data => setReply(props.createPostReply))
       .catch(error => setReply(error))
     e.target.reset()
   } // your form submit function which will invoke after successful validation
