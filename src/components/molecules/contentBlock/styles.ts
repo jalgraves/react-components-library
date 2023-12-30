@@ -169,13 +169,14 @@ export const StyledContentBlock = styled.div<StyledContentBlockProps>`
     font-weight: ${props => props.$pFontWeight || "unset"};
     justify-content: ${props => props.$pJustifyContent || "unset"};
     letter-spacing: ${props => props.$pLetterSpacing || "unset"};
-    line-height: ${props => props.$pLineHeight || "initiial"};
+    line-height: ${props => props.$pLineHeight || "initial"};
     margin: ${props => props.$pMargin || "0"};
     max-width: ${props => props.$pMaxWidth || "unset"};
     padding: ${props => props.$pPadding || "0"};
     text-align: ${props => props.$pTextAlign || "unset"};
     text-shadow: ${props => props.$pTextShadow || "unset"};
     text-transform: ${props => props.$pTextTransform || "none"};
+    width: ${props => props.$pWidth || "initial"};
   }
   pre {
     background: ${props => props.$preBackground || "unset"};
@@ -187,5 +188,6 @@ export const StyledContentBlock = styled.div<StyledContentBlockProps>`
     max-width: ${props => props.$preMaxWidth || "unset"};
     padding: ${props => props.$prePadding || "0"};
     outline: ${props => props.$preOutline || "unset"};
+    width: ${props => props.$preWidth || "initial"};
   }
 `
