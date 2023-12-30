@@ -147,6 +147,18 @@ export default interface ContentBlockProps {
   pTextAlign?: any
   pTextShadow?: any
   pTextTransform?: any
+  pWidth?: any
+  preBackground?: any
+  preBorderRadius?: any
+  preDisplay?: any
+  preFontSize?: any
+  preFontFamily?: any
+  preLineHeight?: any
+  preMargin?: any
+  preMaxWidth?: any
+  preOutline?: any
+  prePadding?: any
+  preWidth?: any
   sectionMargin?: any
   sectionPadding?: any
   sectionWidth?: any
@@ -301,6 +313,18 @@ export default interface StyledContentBlockProps {
   $pTextAlign?: any
   $pTextShadow?: any
   $pTextTransform?: any
+  $pWidth?: any
+  $preBackground?: any
+  $preBorderRadius?: any
+  $preDisplay?: any
+  $preFontSize?: any
+  $preFontFamily?: any
+  $preLineHeight?: any
+  $preMargin?: any
+  $preMaxWidth?: any
+  $preOutline?: any
+  $prePadding?: any
+  $preWidth?: any
   $sectionMargin?: any
   $sectionPadding?: any
   $sectionWidth?: any

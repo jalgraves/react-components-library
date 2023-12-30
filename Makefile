@@ -16,6 +16,10 @@ npm/publish:
 npm/test:
 	npm run test
 
+## Delete jest snaps
+delete_snaps:
+	./scripts/delete_snaps.sh
+
 publish: clean npm/rollup npm/publish
 
 ## Show available commands

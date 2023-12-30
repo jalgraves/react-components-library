@@ -169,12 +169,23 @@ export const StyledContentBlock = styled.div<StyledContentBlockProps>`
     font-weight: ${props => props.$pFontWeight || "unset"};
     justify-content: ${props => props.$pJustifyContent || "unset"};
     letter-spacing: ${props => props.$pLetterSpacing || "unset"};
-    line-height: ${props => props.$pLineHeight || "inherit"};
+    line-height: ${props => props.$pLineHeight || "initiial"};
     margin: ${props => props.$pMargin || "0"};
     max-width: ${props => props.$pMaxWidth || "unset"};
     padding: ${props => props.$pPadding || "0"};
     text-align: ${props => props.$pTextAlign || "unset"};
     text-shadow: ${props => props.$pTextShadow || "unset"};
     text-transform: ${props => props.$pTextTransform || "none"};
+  }
+  pre {
+    background: ${props => props.$preBackground || "unset"};
+    border-radius: ${props => props.$preBorderRadius || "unset"};
+    font-family: ${props => props.$preFontFamily || "initial"};
+    font-size: ${props => props.$preFontSize || "initial"};
+    line-height: ${props => props.$preLineHeight || "initial"};
+    margin: ${props => props.$preMargin || "0"};
+    max-width: ${props => props.$preMaxWidth || "unset"};
+    padding: ${props => props.$prePadding || "0"};
+    outline: ${props => props.$preOutline || "unset"};
   }
 `
