@@ -188,6 +188,7 @@ export const StyledContentBlock = styled.div<StyledContentBlockProps>`
     max-width: ${props => props.$preMaxWidth || "unset"};
     padding: ${props => props.$prePadding || "0"};
     outline: ${props => props.$preOutline || "unset"};
+    overflow: ${props => props.$preOverflow || "unset "};
     width: ${props => props.$preWidth || "initial"};
   }
 `

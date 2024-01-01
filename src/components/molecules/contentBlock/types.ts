@@ -157,6 +157,7 @@ export default interface ContentBlockProps {
   preMargin?: any
   preMaxWidth?: any
   preOutline?: any
+  preOverflow?: any
   prePadding?: any
   preWidth?: any
   sectionMargin?: any
@@ -323,6 +324,7 @@ export default interface StyledContentBlockProps {
   $preMargin?: any
   $preMaxWidth?: any
   $preOutline?: any
+  $preOverflow?: any
   $prePadding?: any
   $preWidth?: any
   $sectionMargin?: any

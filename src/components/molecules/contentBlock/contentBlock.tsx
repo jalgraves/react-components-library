@@ -133,6 +133,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $preLineHeight={props.preLineHeight}
       $preMargin={props.preMargin}
       $preMaxWidth={props.preMaxWidth}
+      $preOverflow={props.preOverflow}
       $preOutline={props.preOutline}
       $prePadding={props.prePadding}
       $preWidth={props.preWidth}
