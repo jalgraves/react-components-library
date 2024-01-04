@@ -5,6 +5,32 @@ import renderer from "react-test-renderer"
 import MainMenuBar from "./menuBar"
 import { config } from "../../../utils/index"
 
+const slideMenu = {
+  footer: {
+    text: "this is the bottom of the menu",
+    fontFamily: "Gotham",
+    fontColor: "green",
+    fontSize: "1rem"
+  },
+  
+  linkList: {
+    borderRadius: "4px",
+    fontFamily: "Gotham",
+    fontColor: "yellow",
+    fontSize: "1rem",
+    fontWeight: "900",
+    outline: "1px solid red",
+    pages: config.pages,
+    iconStyle: {
+      color: "blue",
+      fontSize: "1em"
+    }
+  },
+  header: {
+    imgSource: "https://static.prod.beantownpub.com/img/slider/jalgraves.jpg"
+  }
+}
+
 describe(MainMenuBar, () => {
   it('renders main menu without crashing', () => {
     render(
@@ -12,16 +38,10 @@ describe(MainMenuBar, () => {
         barColor="green"
         fontColor="yellow"
         fontFamily="'Raleway', Arial, sans-serif"
-        hoverColor="purple"
-        mainMenuBarImgSource={`${config.static_url}/img/logos/drdavisicecream_navbar_logo.gif`}
+        mainMenuBarImgSource={`${config.static_url}/img/logos/jalgraves.gif`}
         mainMenuBarImgStyles={{}}
         pages={config.pages}
-        slideMenuBackgroundColor={config.colors.navBarMenuBackgroundGray}
-        slideMenuFontColor="red"
-        slideMenuFooterText="this is the bottom of the menu"
-        slideMenuLinkListBorder={`.1rem solid ${config.colors.navBarBlue}`}
-        slideMenuLinkListBorderRadius="4px"
-        slideMenuLogoImgSource={`${config.static_url}/img/logos/drdavisicecream_logo.png`}
+        slideMenu={slideMenu}
       />
     )
     expect(true)
@@ -43,11 +63,7 @@ it('creates snapshot', () => {
       mainMenuBarImgStyles={{}}
       navBarAriaDetails="TestMainMenuBarNav"
       pages={config.pages}
-      slideMenuAriaDetails="TestMainMenuBarSlideMenu"
-      slideMenuBackgroundColor="blue"
-      slideMenuFontColor="red"
-      slideMenuFooterText="this is the bottom of the menu"
-      slideMenuLogoImgSource="/bizz/buzz"
+      slideMenu={slideMenu}
     />
   )
   let tree = component.toJSON() as any

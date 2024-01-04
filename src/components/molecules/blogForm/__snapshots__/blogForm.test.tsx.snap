@@ -33,6 +33,43 @@ exports[`blog form snapshot 1`] = `
       onChange={[Function]}
       rows={20}
     />
+    <label
+      htmlFor="tags"
+    >
+      Tags
+    </label>
+    <div
+      aria-details="blog tags"
+    >
+      <div
+        className="tagCheckBox"
+      >
+        <h3>
+          foo
+        </h3>
+        <input
+          name="tags"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="checkbox"
+          value="foo"
+        />
+      </div>
+      <div
+        className="tagCheckBox"
+      >
+        <h3>
+          bar
+        </h3>
+        <input
+          name="tags"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="checkbox"
+          value="bar"
+        />
+      </div>
+    </div>
     <label>
       Post
     </label>

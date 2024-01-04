@@ -139,4 +139,9 @@ button {
   padding: 10px 20px;
   border-radius: 4px;
 }
+.tagCheckBox {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
 `

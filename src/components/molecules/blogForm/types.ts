@@ -83,9 +83,23 @@ export interface FormProps {
   pTextTransform?: string
   requiredFieldError?: string
   submitButtonStyles?: any
+  tags?: any
   textareaColumns?: number
   textareaFontSize?: string
   textareaRows?: number
   textTransform?: string
   width?: string
+}
+
+export interface IFormInput {
+  author: string;
+  title: string;
+  summary: string;
+  body: string;
+  tags: string;
+}
+
+export interface TagProps {
+  tags?: any
+  register?: any
 }

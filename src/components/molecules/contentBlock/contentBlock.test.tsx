@@ -4,7 +4,7 @@ import renderer from "react-test-renderer"
 import { render } from "@testing-library/react"
 import ContentSection from "./contentBlock"
 
-it('conteent block snapshot', () => {
+it('content block snapshot', () => {
   const component = renderer.create(
     <ContentSection 
       ariaDetails="TestContentSection"
