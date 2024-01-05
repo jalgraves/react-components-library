@@ -20,17 +20,44 @@ interface MainMenuBarProps {
   mainMenuBarBoxShadow?: string
   pages: any
   slideMenuAriaDetails?: string
-  slideMenuBackgroundColor: string
+  // slideMenuBackgroundColor: string
+  slideMenuBorder?: string
+  slideMenuBorderRadius?: string
   slideMenuFontColor?: string
   slideMenuFontFamily?: string
-  slideMenuFooterFontColor?: string
-  slideMenuFooterFontFamily?: string
-  slideMenuFooterFontSize?: string
-  slideMenuFooterText?: string
-  slideMenuHoverColor?: string
-  slideMenuLinkListBorder?: string
-  slideMenuLinkListBorderRadius?: string
-  slideMenuLogoImgSource?: string
+  // slideMenuFooterFontColor?: string
+  // slideMenuFooterFontFamily?: string
+  // slideMenuFooterFontSize?: string
+  // slideMenuFooterText?: string
+  // slideMenuFooterFontWeight?: string
+  // slideMenuHoverColor?: string
+  // slideMenuLinkListBorder?: string
+  // slideMenuLinkListBorderRadius?: string
+  // slideMenuLinkListFontSize?: string
+  // slideMenuLinkListFontWeight?: string
+  // slideMenuLinkListLetterSpacing?: string
+  // slideMenuHeaderFontColor?: string
+  // slideMenuHeaderFontFamily?: string
+  // slideMenuHeaderFontSize?: string
+  // slideMenuHeaderText?: string
+  // slideMenuHeaderFontWeight?: string
+  // slideMenuLogoImgSource?: string
+  slideMenu?: any
+  hamburgerBackground?: string
+  hamburgerBorder?: string
+  hamburgerBorderRadius?: string
+  hamburgerColor?: string
+  hamburgerFontSize?:string
+  hamburgerHeight?:string
+  hamburgerLeft?: string
+  hamburgerMargin?: string
+  hamburgerOpacity?: string
+  hamburgerPadding?: string
+  hamburgerPosition?: string
+  hamburgerTextIndent?:string
+  hamburgerTop?: string
+  hamburgerWidth?: string
+  hamburgerZIndex?: string
 }
 
 export interface NavBarLogoProps {
@@ -54,6 +81,23 @@ const MainMenuBar = (props: MainMenuBarProps) => {
     maxWidth: "75vw",
     maxHeight: "3.5rem"
   }
+  const hamburgerStyles = {
+    width: props.hamburgerWidth || "3rem" ,
+    background: props.hamburgerBackground || "red",
+    position: props.hamburgerPosition || "fixed",
+    zIndex: props.hamburgerZIndex || "1000",
+    margin: props.hamburgerMargin || ".25em",
+    padding: props.hamburgerPadding || "0",
+    height: props.hamburgerHeight || "2.75em",
+    border: props.hamburgerBorder || "none",
+    textIndent: props.hamburgerTextIndent || "2.5em",
+    fontSize: props.hamburgerFontSize || "1.5em",
+    color: props.hamburgerColor || "transparent",
+    borderRadius: props.hamburgerBorderRadius || ".35em",
+    opacity: props.hamburgerOpacity || ".8",
+    left: props.hamburgerLeft || ".5rem",
+    top: props.hamburgerTop || "1em",
+  }
   const navBarImgStyles = props.mainMenuBarImgStyles ? {...defaultImgStyles, ...props.mainMenuBarImgStyles} : defaultImgStyles
   return(
     <StyledMainMenuBar 
@@ -65,21 +109,18 @@ const MainMenuBar = (props: MainMenuBarProps) => {
       $imgStyles={navBarImgStyles}
     >
       <SlideMenu 
-        ariaDetails={props.slideMenuAriaDetails || "MainMenuBarSlideMenu"}
-        backgroundColor={props.slideMenuBackgroundColor}
-        fontColor={props.slideMenuFontColor || props.fontColor}
-        fontFamily={props.slideMenuFontFamily || props.fontFamily}
-        footerFontColor={props.slideMenuFooterFontColor || props.fontColor}
-        footerFontFamily={props.slideMenuFooterFontFamily || props.fontFamily}
-        footerFontSize={props.slideMenuFooterFontSize}
-        footerText={props.slideMenuFooterText}
-        headerImgSource={props.slideMenuLogoImgSource}
-        hoverColor={props.slideMenuHoverColor || props.hoverColor}
-        linkListBorder={props.slideMenuLinkListBorder}
-        linkListBorderRadius={props.slideMenuLinkListBorderRadius}
-        pages={props.pages}
+        ariaDetails={props.slideMenu.ariaDetails || "top bar slide menu"}
+        border={props.slideMenu.border}
+        borderRadius={props.slideMenu.borderRadius}
+        backgroundColor={props.slideMenu.backgroundColor}
+        fontColor={props.slideMenu.fontColor || props.fontColor}
+        fontFamily={props.slideMenu.fontFamily || props.fontFamily}
+        footer={props.slideMenu.footer}
+        header={props.slideMenu.header}
+        linkList={props.slideMenu.linkList}
+        hamburgerStyles={hamburgerStyles}
       />
-      {toggleMenu("open")}
+      {toggleMenu(hamburgerStyles, "open")}
       <NavBarLogo imgSource={props.mainMenuBarImgSource} imgAlt={props.mainMenuBarImgAlt} />
       <NavBar
         ariaDetails={props.navBarAriaDetails || "MainMenuBarNavBar"}

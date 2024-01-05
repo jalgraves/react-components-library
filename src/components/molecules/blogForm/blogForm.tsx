@@ -1,14 +1,32 @@
 import React, { useState } from "react"
 import { useForm } from "react-hook-form"
 import { StyledBlogForm } from "./styles"
-import { FormProps } from "./types"
+import { FormProps, IFormInput, TagProps } from "./types"
 
-interface IFormInput {
-  author: string;
-  title: string;
-  summary: string;
-  body: string;
-  tags: string;
+const Tags = (props: TagProps) => {
+  const tags = props.tags
+  console.log(tags)
+  const tagsList = []
+  if (tags) {
+    for (let i = 0; i < tags.length; i++) {
+      tagsList.push(
+        <div className="tagCheckBox">
+        <h3>{tags[i]}</h3>
+        <input
+          key={i}
+          type='checkbox'
+          value={tags[i]}
+          {...props.register("tags")}
+        />
+        </div>
+      )
+    }
+  }
+  return (
+    <div aria-details="blog tags">
+      {tagsList}
+    </div>
+  )
 }
 
 function BlogForm(props: FormProps) {
@@ -36,7 +54,7 @@ function BlogForm(props: FormProps) {
 
   return (
     <StyledBlogForm
-      aria-details={props.ariaDetails || "undefined"}
+      aria-details={props.ariaDetails || "blog form"}
       $buttonColor={props.buttonColor}
       $buttonFontColor={props.buttonFontColor}
       $buttonFontFamily={props.buttonFontFamily}
@@ -97,6 +115,8 @@ function BlogForm(props: FormProps) {
         <label>Summary</label>
         <textarea rows={20} {...register("summary", { required: true })}/>
         {errors?.summary?.type === "required" && <p>{props.requiredFieldError || "This field is required"}</p>}
+        <label htmlFor="tags">Tags</label>
+        <Tags tags={props.tags} register={register}/>
         <label>Post</label>
         <textarea rows={20} {...register("body", { required: true })}/>
         {errors?.body?.type === "required" && <p>{props.requiredFieldError || "This field is required"}</p>}

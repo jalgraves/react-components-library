@@ -52,7 +52,7 @@ const Button = (props: ButtonProps) => {
   )
 }
 
-export const SubmitButton = (props: ButtonProps) => {
+const SubmitButton = (props: ButtonProps) => {
   const handleClick = () => {
     if (props.runFunction) {
       props.runFunction()
@@ -67,3 +67,5 @@ export const SubmitButton = (props: ButtonProps) => {
     />
   )
 }
+
+export default SubmitButton

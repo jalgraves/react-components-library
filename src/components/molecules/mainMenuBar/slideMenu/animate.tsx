@@ -29,9 +29,16 @@ export function menuClose() {
   })
 }
 
-export function toggleMenu(action: string) {
+export function toggleMenu(hamburgerStyles: any, action: string) {
   return (
-    <StyledHamburger aria-details="hamburgerMenu">
+    <StyledHamburger 
+      aria-details="hamburgerMenu"
+      $hamburgerBackground={hamburgerStyles.background}
+      $hamburgerLeft={hamburgerStyles.left}
+      $hamburgerTop={hamburgerStyles.top}
+      $hamburgerWidth={hamburgerStyles.width}
+      $hamburgerHeight={hamburgerStyles.height}
+    >
       {action === "open" &&
         <button className="hamburger" id="open_menu" onClick={() => menuOpen()}>Open Menu</button>
       }

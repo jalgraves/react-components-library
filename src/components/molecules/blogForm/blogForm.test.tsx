@@ -24,6 +24,7 @@ it('blog form snapshot', () => {
       pTextTransform="uppercase"
       requiredFieldError="This is an error message"
       width="100%"
+      tags={["foo", "bar"]}
     />
   )
   let tree = component.toJSON()! as any
