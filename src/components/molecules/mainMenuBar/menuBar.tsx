@@ -19,29 +19,6 @@ interface MainMenuBarProps {
   mainMenuBarBorderBottom?: string
   mainMenuBarBoxShadow?: string
   pages: any
-  slideMenuAriaDetails?: string
-  // slideMenuBackgroundColor: string
-  slideMenuBorder?: string
-  slideMenuBorderRadius?: string
-  slideMenuFontColor?: string
-  slideMenuFontFamily?: string
-  // slideMenuFooterFontColor?: string
-  // slideMenuFooterFontFamily?: string
-  // slideMenuFooterFontSize?: string
-  // slideMenuFooterText?: string
-  // slideMenuFooterFontWeight?: string
-  // slideMenuHoverColor?: string
-  // slideMenuLinkListBorder?: string
-  // slideMenuLinkListBorderRadius?: string
-  // slideMenuLinkListFontSize?: string
-  // slideMenuLinkListFontWeight?: string
-  // slideMenuLinkListLetterSpacing?: string
-  // slideMenuHeaderFontColor?: string
-  // slideMenuHeaderFontFamily?: string
-  // slideMenuHeaderFontSize?: string
-  // slideMenuHeaderText?: string
-  // slideMenuHeaderFontWeight?: string
-  // slideMenuLogoImgSource?: string
   slideMenu?: any
   hamburgerBackground?: string
   hamburgerBorder?: string
@@ -100,15 +77,15 @@ const MainMenuBar = (props: MainMenuBarProps) => {
   }
   const navBarImgStyles = props.mainMenuBarImgStyles ? {...defaultImgStyles, ...props.mainMenuBarImgStyles} : defaultImgStyles
   return(
-    <StyledMainMenuBar 
+    <StyledMainMenuBar
       aria-details={props.ariaDetails || "MainMenuBar"}
-      $backgroundColor={props.barColor} 
+      $backgroundColor={props.barColor}
       $borderBottom={props.mainMenuBarBorderBottom}
       $boxShadow={props.mainMenuBarBoxShadow}
       $fontFamily={props.fontFamily}
       $imgStyles={navBarImgStyles}
     >
-      <SlideMenu 
+      <SlideMenu
         ariaDetails={props.slideMenu.ariaDetails || "top bar slide menu"}
         border={props.slideMenu.border}
         borderRadius={props.slideMenu.borderRadius}

@@ -13,6 +13,9 @@ const ContentSection = (props: ContentBlockProps) => {
       $aHoverColor={props.aHoverColor}
       $aJustifyContent={props.h2JustifyContent}
       $aLineHeight={props.aLineHeight}
+      $aMargin={props.aMargin}
+      $aTextDecoration={props.aTextDecoration}
+      $aTextTransform={props.aTextTransform}
       $articleColor={props.articleColor}
       $articleDisplay={props.articleDisplay}
       $articleFontFamily={props.articleFontFamily}
@@ -23,7 +26,6 @@ const ContentSection = (props: ContentBlockProps) => {
       $articleMargin={props.articleMargin}
       $articleMaxWidth={props.articleMaxWidth}
       $articleWidth={props.articleWidth}
-      $aTextDecoration={props.aTextDecoration}
       $backgroundColor={props.backgroundColor}
       $border={props.border}
       $borderBottom={props.borderBottom}
@@ -37,6 +39,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h1Display={props.h1Display}
       $h1FontFamily={props.h1FontFamily}
       $h1FontSize={props.h1FontSize}
+      $h1FontStyle={props.h1FontStyle}
       $h1FontWeight={props.h1FontWeight}
       $h1JustifyContent={props.h2JustifyContent}
       $h1LetterSpacing={props.h1LetterSpacing}
@@ -50,6 +53,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h2Display={props.h2Display}
       $h2FontFamily={props.h2FontFamily}
       $h2FontSize={props.h2FontSize}
+      $h2FontStyle={props.h2FontStyle}
       $h2FontWeight={props.h2FontWeight}
       $h2JustifyContent={props.h2JustifyContent}
       $h2LetterSpacing={props.h2LetterSpacing}
@@ -62,6 +66,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h3Color={props.h3Color}
       $h3FontFamily={props.h3FontFamily}
       $h3FontSize={props.h3FontSize}
+      $h3FontStyle={props.h3FontStyle}
       $h3FontWeight={props.h3FontWeight}
       $h3JustifyContent={props.h2JustifyContent}
       $h3LetterSpacing={props.h3LetterSpacing}
@@ -74,6 +79,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h4Color={props.h4Color}
       $h4FontFamily={props.h4FontFamily}
       $h4FontSize={props.h4FontSize}
+      $h4FontStyle={props.h4FontStyle}
       $h4FontWeight={props.h4FontWeight}
       $h4JustifyContent={props.h2JustifyContent}
       $h4LetterSpacing={props.h4LetterSpacing}
@@ -106,6 +112,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h6TextTransform={props.h6TextTransform}
       $headerImgMaxWidth={props.headerImgMaxWidth}
       $headerImgPadding={props.headerImgPadding}
+      $justifyContent={props.justifyContent}
       $lineHeight={props.lineHeight}
       $margin={props.margin}
       $maxWidth={props.maxWidth}

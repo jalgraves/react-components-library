@@ -102,8 +102,7 @@ function BlogForm(props: FormProps) {
         <input
           {...register("title", {
             required: true,
-            maxLength: 100,
-            pattern: /^[A-Z a-z]+$/i
+            maxLength: 100
           })}
         />
         {errors?.title?.type === "required" && <p>{props.requiredFieldError || "This field is required"}</p>}

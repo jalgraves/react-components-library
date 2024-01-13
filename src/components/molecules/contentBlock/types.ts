@@ -46,6 +46,7 @@ export default interface ContentBlockProps {
   h1Display?: any
   h1FontFamily?: any
   h1FontSize?: any
+  h1FontStyle?: string
   h1FontWeight?: any
   h1JustifyContent?: any
   h1LetterSpacing?: any
@@ -60,6 +61,7 @@ export default interface ContentBlockProps {
   h2Display?: any
   h2FontFamily?: any
   h2FontSize?: any
+  h2FontStyle?: string
   h2FontWeight?: any
   h2JustifyContent?: any
   h2LetterSpacing?: any
@@ -74,6 +76,7 @@ export default interface ContentBlockProps {
   h3Display?: any
   h3FontFamily?: any
   h3FontSize?: any
+  h3FontStyle?: string
   h3FontWeight?: any
   h3JustifyContent?: any
   h3LetterSpacing?: any
@@ -88,6 +91,7 @@ export default interface ContentBlockProps {
   h4Display?: any
   h4FontFamily?: any
   h4FontSize?: any
+  h4FontStyle?: string
   h4FontWeight?: any
   h4JustifyContent?: any
   h4LetterSpacing?: any
@@ -128,6 +132,7 @@ export default interface ContentBlockProps {
   h6TextTransform?: any
   headerImgMaxWidth?: any
   headerImgPadding?: any
+  justifyContent?: string
   lineHeight?: any
   margin?: any
   maxWidth?: any
@@ -213,6 +218,7 @@ export default interface StyledContentBlockProps {
   $h1Display?: any
   $h1FontFamily?: any
   $h1FontSize?: any
+  $h1FontStyle?: string
   $h1FontWeight?: any
   $h1JustifyContent?: any
   $h1LetterSpacing?: any
@@ -227,6 +233,7 @@ export default interface StyledContentBlockProps {
   $h2Display?: any
   $h2FontFamily?: any
   $h2FontSize?: any
+  $h2FontStyle?: string
   $h2FontWeight?: any
   $h2JustifyContent?: any
   $h2LetterSpacing?: any
@@ -241,6 +248,7 @@ export default interface StyledContentBlockProps {
   $h3Display?: any
   $h3FontFamily?: any
   $h3FontSize?: any
+  $h3FontStyle?: string
   $h3FontWeight?: any
   $h3JustifyContent?: any
   $h3LetterSpacing?: any
@@ -255,6 +263,7 @@ export default interface StyledContentBlockProps {
   $h4Display?: any
   $h4FontFamily?: any
   $h4FontSize?: any
+  $h4FontStyle?: string
   $h4FontWeight?: any
   $h4JustifyContent?: any
   $h4LetterSpacing?: any
@@ -295,6 +304,7 @@ export default interface StyledContentBlockProps {
   $h6TextTransform?: any
   $headerImgMaxWidth?: any
   $headerImgPadding?: any
+  $justifyContent?: string
   $lineHeight?: any
   $margin?: any
   $maxWidth?: any
