@@ -14,7 +14,9 @@ import {
   faUtensils,
   faTshirt,
   faLock,
-  faCalendar
+  faCalendar,
+  faScissors,
+  faMartiniGlass
 } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -47,7 +49,9 @@ const Icon = (props: IconProps) => {
     "faLock": faLock,
     "faInstagram": faInstagram,
     "faTwitter": faTwitter,
-    "faCalendar": faCalendar
+    "faCalendar": faCalendar,
+    "faScissors": faScissors,
+    "faMartiniGlass": faMartiniGlass
   }
   return (
     <FontAwesomeIcon icon={icons[props.iconName]} style={props.style} fixedWidth />

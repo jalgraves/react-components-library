@@ -5,7 +5,7 @@ import Icon from "./icon"
 
 describe(Icon, () => {
   it('renders icon without crashing', () => {
-    render(<Icon  iconName="faBeer" />)
+    render(<Icon  iconName="faScissors" />)
     expect(true)
   })
 })

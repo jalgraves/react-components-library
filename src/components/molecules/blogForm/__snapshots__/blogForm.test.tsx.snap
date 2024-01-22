@@ -3,7 +3,7 @@
 exports[`blog form snapshot 1`] = `
 <div
   aria-details="TestBlogForm"
-  className="sc-beyTiQ dnODmx"
+  className="sc-beyTiQ jCiIGC"
 >
   <form
     onSubmit={[Function]}
