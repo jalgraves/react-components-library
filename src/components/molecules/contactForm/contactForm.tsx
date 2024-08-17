@@ -21,10 +21,11 @@ function ContactForm(props: FormProps) {
 
   const onSubmit = (data: IFormInput, e: any) => {
     // console.log(JSON.stringify(data))
-    const heads: any = {
+    const requestHeaders: any = {
       "Content-Type": "application/json"
     }
-    fetch("contact/send-message", {method: "POST", credentials: "include", body: JSON.stringify(data), headers: heads})
+    const requestPath = props.requestPath || "contact/send-message"
+    fetch(requestPath, {method: "POST", credentials: "include", body: JSON.stringify(data), headers: requestHeaders})
       .then(response => response.json())
       .then(data => setReply(data.msg))
       .catch(error => setReply(error))

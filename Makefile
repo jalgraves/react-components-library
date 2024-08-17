@@ -1,6 +1,7 @@
 .PHONY: all test clean
 export MAKE_PATH ?= $(shell pwd)
 export SELF ?= $(MAKE)
+MAKE_FILES = ${MAKE_PATH}/Makefile
 
 clean:
 	rm -rf dist/
@@ -26,7 +27,7 @@ publish: clean npm/rollup npm/publish
 help:
 	@printf "Available targets:\n\n"
 	@$(SELF) -s help/generate | grep -E "\w($(HELP_FILTER))"
-	@printf "\n"
+	@printf "\n\n"
 
 help/generate:
 	@awk '/^[a-zA-Z\_0-9%:\\\/-]+:/ { \
@@ -40,4 +41,3 @@ help/generate:
 		} \
 	} \
 	{ lastLine = $$0 }' $(MAKE_FILES) | sort -u
-	@printf "\n\n"

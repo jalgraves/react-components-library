@@ -13,6 +13,7 @@ export const StyledContentBlock = styled.div<StyledContentBlockProps>`
   justify-content: ${props => props.$justifyContent || "unset"};
   line-height: ${props => props.$lineHeight || "unset"};
   margin: ${props => props.$margin || "0"};
+  order: ${props => props.$orderNumber || "0"};
   outline: ${props => props.$outline || "unset"};
   max-width: ${props => props.$maxWidth || "unset"};
   padding: ${props => props.$padding || "0"};

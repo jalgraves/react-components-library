@@ -136,6 +136,7 @@ export default interface ContentBlockProps {
   lineHeight?: any
   margin?: any
   maxWidth?: any
+  orderNumber?: string
   outline?: any
   padding?: any
   pColor?: any
@@ -308,6 +309,7 @@ export default interface StyledContentBlockProps {
   $lineHeight?: any
   $margin?: any
   $maxWidth?: any
+  $orderNumber?: string
   $outline?: any
   $padding?: any
   $pColor?: any

@@ -59,6 +59,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h2LetterSpacing={props.h2LetterSpacing}
       $h2LineHeight={props.h2LineHeight}
       $h2Margin={props.h2Margin}
+      $h2MaxWidth={props.h2MaxWidth}
       $h2Padding={props.h2Padding}
       $h2TextAlign={props.h2TextAlign}
       $h2TextShadow={props.h2TextShadow}
@@ -72,6 +73,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h3LetterSpacing={props.h3LetterSpacing}
       $h3LineHeight={props.h3LineHeight}
       $h3Margin={props.h3Margin}
+      $h3MaxWidth={props.h3MaxWidth}
       $h3Padding={props.h3Padding}
       $h3TextAlign={props.h3TextAlign}
       $h3TextShadow={props.h3TextShadow}
@@ -144,6 +146,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $preOutline={props.preOutline}
       $prePadding={props.prePadding}
       $preWidth={props.preWidth}
+      $orderNumber={props.orderNumber}
       $sectionMargin={props.sectionMargin}
       $sectionPadding={props.sectionPadding}
       $sectionWidth={props.sectionWidth}

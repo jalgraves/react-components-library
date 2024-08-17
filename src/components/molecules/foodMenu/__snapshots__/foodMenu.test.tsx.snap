@@ -1,0 +1,1566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content block snapshot 1`] = `
+<div
+  aria-details="StyledContentBlock"
+  className="sc-dmyDmy gaAppY"
+>
+  <div
+    aria-details="CategoriesContainer"
+    className="sc-dmyDmy eHpbLH"
+  >
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        appetizers
+      </h2>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Mozzarella Sticks
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  13.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Mozzarella dipped in bread crumbs and fried. Served with homemade marinara sauce
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Potato Skins
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  13.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Topped with cheddar jack cheese, scallions, and smoked bacon. Add chili for 2.00
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Homemade Hummus
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  12.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            A great vegetarian delight. Served with fresh pita bread, carrots, and celery sticks
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Fried Pickles
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  9.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Pickle chips lightly battered and fried to a golden brown. Served with ranch dressing
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Chips & Guacamole
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  12.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            House made guacamole served with our fresh fried tortilla chips
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Cheese Fries
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  11.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            House fries topped with cheddar jack cheese and served with gravy dipping for dipping delight Add bacon 2.00
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Steak & Cheese Fries
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            House cheese fries topped with steak
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Nachos
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  15.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            A mountain of crisp tortilla chips piled high with salsa, melted cheese, sour cream, onions, jalapenos, and scallions. Add a generous scoop of chili or chicken for 4.00
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Baked Beans
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  9.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            An old Boston recipe served with brown bread
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Baked Pretzel Sticks
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  12.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Served with cheese sauce for dipping
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Haddock Bites
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  15.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh haddock battered and fried. Served with tartar sauce
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Tater Kegs
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  12.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Jumbo tater tots stuffed with bacon and cheddar cheese, served with side of ranch dressing
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Fried Shrimp
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  15.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Shrimp delicately battered and breaded. Served with honey mustard
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Fried Calamari
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  15.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Calamari delicately battered and breaded. Served with honey mustard
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Famous Fries
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  8
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Our famous fries cooked to a perfect golden brown. Served with your choice of dipping sauce
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        title town wings
+      </h2>
+      <h3>
+        Best wings in Boston! Available house battered or naked. Sauces: Plain | Buffalo | Honey Buffalo | Sweet Chili | Garlic Parmesan | XXX Hot | Teriyaki | BBQ | choice of 2 per order
+      </h3>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  6 Wings
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  13.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p />
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  12 Wings
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  20.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p />
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Boneless
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  13.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p />
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Popcorn Chicken
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  12.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p />
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        soups
+      </h2>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Homemade Chili
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  10.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh ground sirloin, tomatoes, peppers, onions & beans. All this flavor topped with melted cheese Tortilla chips included for scooping
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Clam Chowder
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  9.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Traditional recipe, classic flavor!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        salads
+      </h2>
+      <h3>
+        Add grilled chicken 6, shrimp 7, lobster 14, steak 11.
+DRESSINGS: Italian, Creamy Italian, Ranch, Blue Cheese, Greek, Honey Mustard, Russian, Balsamic Vinaigrette, Fat Free Vinaigrette, and Oila Vinegar
+      </h3>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Garden Salad
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  11.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Mixed greens, fresh tomatoes, Bermuda onions, crisp cucumbers, carrots, and pepperoncinis
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Caesar Salad
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  11.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Crisp romaine lettuce and garlic bread croutons topped with parmesan cheese and tossed in a classic caesar dressing
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Mediterranean Salad
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  13.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Mixed greens, tomato, onion, cucumber, carrots, and feta
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Strawberry Summer Salad
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  14.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Lettuce, strawberries, cucumbers and pumpkin seeds with white strawberry vinaigrette
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        entrees
+      </h2>
+      <h3>
+        Add a starter salad to any entree or sandwich for 4.95
+      </h3>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Vegetable Stir Fry
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  15.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            A medley of fresh stir fry vegetbles in a light teriyaki sauce served over rice. Add chicken for 6.00
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  New England Fried Chicken
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  19.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Bonless chicken breast lightly battered and cooked to a golden brown. Served with mashed potatoes, vegetables, cranberry sauce, and scrumptous homemade gravy
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Made to Order Mac & Cheese
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  11.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Add bacon 2.00. Add grilled chicken 6.00. Add lobster 14.00
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  *Marinated Steak Tips
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  24.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Choice cuts of lean sirloin grilled to your liking. Served with today's vegetable and a side of your choice
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Fish & Chips
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  19.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh haddock, fried to a golden brown and served with homemade coleslaw and fries
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Firecracker Shrimp
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  19.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Golden brown fried shrimp dusted in our spice mix and french fries drizzled in firecracker sauce. Served with coleslaw
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Chicken Tender Platter
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  15.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh chicken tenders fried golden brown and served with fries and coleslaw
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Chicken Parmesan
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  19.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            A large breast of chicken delicately breaded, lightly fried, topped with marinara sauce and mozzarella and server over the pasta of the day
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  BBQ Baby Back Ribs
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  22.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Half rack served with coleslaw and fries
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        sandwiches
+      </h2>
+      <h3>
+        Sandwiches served on an extra large fresh roll with a pickle spear and a choice of side. Add a starter salad to any entree or sandwich for 4.95
+      </h3>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Jumbo Lobster Role
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  25.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Choice of tender, sweet lobster meat tossed lightly in mayo served with lettuce on a toasted buttered roll. Comes with french fries and homemade coleslaw
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Lobster Grilled Cheese
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  25.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh North Atlantic lobster on your choice of whie, wheat, or rye bread with American, cheddar, swiss, pepperjack, or provolone cheese
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Traditional B.L.T
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  14.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            An American classic! Bacon, lettuce, tomato, and mayo on your coice of white, wheat, or rye bread
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Lobster Tacos
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  25.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh chunks of tender lobster meat served on caramelized onion naan. Served with Fresh pico de gallo, cabbage, and our House aioli
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  *Mother Goose
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  19.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Sauteed, marinated, sirloin steak tips smothered with sauteed peppers, onions, and melted Vermont cheddar
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Slow Roasted Turkey Club
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  18.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh carved turkey breast with lettuce, tomato, and bacon
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Sam Adams
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  17.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Grilled cajun chicken breast topped with melted Vermont cheddar cheese and dressed with lettuce, tomato, and a dijon mayo blend
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Fish Tacos
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            3 Tacos. Fresh fried haddock served on caramelized onion naan with fresh pico de gailo and cabbage, drizzled with our house aioli. Side not included
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Paul Revere
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  18.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Hand cut Romanian pastrami, corned beef, Swiss cheese, Bermuda onions and honey dijon mustard
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Honey Chicken Sandwich
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  17.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fried chicken breast topped with pepperjack cheese, honey, spicy mustard, and pickle chips. On a brioche bun
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Chicken Sandwich
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh chicken breast grilled or fried, served with lettuce, tomato, and onion on a brioche bun
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Fenway Franks
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  13.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Two all beef hot dogs and grilled buns, just like at the park!
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Classic Reuben
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  18.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Choice of corned beef or pastrami piled high with Swiss cheese and 1,000 island dressing
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Rocado Sandwich
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Toasted multigrain panini with avado, roasted red peppers, pico de gailo, and fresh pesto. Vegan friendly!
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  The Big Cheese
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  11.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Traditional grilled cheese sandwich. Choice of white, wheat, or rye bread and American, cheddar, Swiss, pepperjack, or provolone cheese. Additions available for 99¢: Tomato, bacon, ham, sauteed onions
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Turkey Twister
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  18.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Oven roasted turkey, smashed avocado, habanero bacon jam with your choice of cheese served on ciabatta bread
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Classic Steak & Cheese
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  17.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Shaved Steak with Peppers, Onions, and American Cheese on French Bread
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        burgers
+      </h2>
+      <h3>
+        Add a starter salad to any burger for 4.95
+      </h3>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Famous Beantown Burger
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  18.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            ½lb fresh filet mignon, short rib & chuck, topped with bacon, choice of cheese, lettuce, tomato, onion, homemade fried pickle chips, and our signature sauce. All this on a garlic butter roll
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Handmade Turkey Burger
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Fresh ground turkey breast, grilled and served with lettuce, tomato, and onion on a freshly baked roll. Topped with your choice of cheese
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Handmade Cheese Burger
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            ½Lb USDA choice beef served with lettuce, tomato, and onion topped with choice of cheese on a freshly baked roll. Add sauteed onions or mushrooms for just 50¢ each or bacon for 1.00
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Guacamole Burger
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            ½Lb hand packed beef patty topped with guacamole, pepperjack cheese, jalapenos, and chipotle aioli
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Veggie Life Quinoa Burger
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  16.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Award winning, made locally, full of favor with organic red quinoa, fresh garden veggies, garlic and Italian herbs, with your choice of cheese and a side, on a brioche
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="Menu Category"
+      className="sc-dmyDmy dSJbZv"
+    >
+      <h2
+        className="sectionTitle"
+      >
+        desserts
+      </h2>
+      <div
+        aria-details="CategoryContainer"
+        className="sc-dmyDmy floNTI"
+      >
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Boston Cream Pie
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  8.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Sweet buttery cake filled with custard and topped with chocolate glaze
+          </p>
+        </div>
+        <div
+          className="sc-guDMob bIjaEi"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td
+                  className="itemName"
+                >
+                  Brownie Sundae
+                </td>
+                <td
+                  className="itemPrice"
+                >
+                  8.99
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Brownie topped with vanilla ice cream
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="Sides items Container"
+      className="sc-hLQTFJ dwYTvo"
+    >
+      <h2
+        className="sectionTitle"
+      />
+      <div
+        className="sides"
+      >
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            mashed potatoes
+          </p>
+        </div>
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            potato salad
+          </p>
+        </div>
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            cole slaw
+          </p>
+        </div>
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            veggie of the day
+          </p>
+        </div>
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            jasmine rice
+          </p>
+        </div>
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            baked beans
+          </p>
+        </div>
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            homemade chips
+          </p>
+        </div>
+        <div
+          aria-labelledby="Side item"
+          className="sc-eDLKEg iVbzTf"
+        >
+          <p>
+            french fries
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-details="WarningsContainer"
+      className="sc-dmyDmy ldoURd"
+    >
+      <h3>
+        <span>
+          *
+        </span>
+        These items are cooked to order. There is a risk associated with consuming undercooked meat products
+      </h3>
+      <h3>
+        Prices subject to change without notice
+      </h3>
+    </div>
+  </div>
+</div>
+`;

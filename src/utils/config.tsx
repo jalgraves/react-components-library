@@ -1,3 +1,4 @@
+// Configs used for testing components
 const config = {
   "static_url": "https://static.prod.beantownpub.com",
   "sections": {
