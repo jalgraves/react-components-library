@@ -44,6 +44,7 @@ const Sides = (props: SideProps) => {
         display={props.sidesContainerDisplay}
         flexFlow={props.sidesContainerFlexFlow}
         orderNumber={props.sidesContainerOrderNumber}
+        justifyContent={props.sidesContainerJustifyContent}
       >
         {sideList}
       </ContentSection>
@@ -66,7 +67,6 @@ const Sides = (props: SideProps) => {
       h2Padding={props.sidesContainerTitlePadding}
       h2TextAlign={props.sidesContainerTitleTextAlign}
       h2TextTransform={props.sidesContainerTitleTextTransform}
-      justifyContent={props.sidesContainerJustifyContent}
       margin={props.sidesContainerMargin}
       maxWidth={props.sidesContainerMaxWidth}
       orderNumber={props.sidesContainerOrderNumber}

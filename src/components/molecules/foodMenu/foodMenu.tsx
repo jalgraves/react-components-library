@@ -131,24 +131,6 @@ const FoodMenu = (props: FoodMenuProps) => {
         sidesContainerOrderNumber={props.sidesContainerOrderNumber || "6"}
         sidesContainerTitleText={props.sidesContainerTitleText || "sides"}
       /> 
-      <ContentSection
-        ariaDetails="WarningsContainer"
-        display="flex"
-        flexFlow="column wrap"
-        margin="auto"
-        h3Color={props.menuWarningColor || black}
-        h3FontFamily={props.menuWarningFontFamily}
-        h3FontSize={props.menuWarningFontSize || "1.5rem"}
-        h3FontWeight={props.menuWarningFontWeight}
-        h3Margin={props.menuWarningMargin || "auto"}
-        h3Padding={props.menuWarningPadding}
-        h3MaxWidth={props.menuWarningMaxWidth}
-        h3LineHeight={props.menuWarningLineHeight || "100%"}
-        h3TextTransform={props.menuWarningTextTransform}
-      >
-        <h3><span>*</span>These items are cooked to order. There is a risk associated with consuming undercooked meat products</h3>
-        <h3>Prices subject to change without notice</h3>
-      </ContentSection>
     </ContentSection>
     
   )

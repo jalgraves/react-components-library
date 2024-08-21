@@ -45,7 +45,7 @@ export interface NavBarLogoProps {
 const NavBarLogo = (props: NavBarLogoProps) => {
   return (
     <div className="navBarLogo">
-      <a href="/">
+      <a href="/" aria-label="Return to the website home page">
         <img src={props.imgSource}  alt={props.imgAlt} />
       </a>
     </div>
