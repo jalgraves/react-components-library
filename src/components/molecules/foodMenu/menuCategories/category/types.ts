@@ -186,8 +186,11 @@ export interface MenuItemProps {
   menuItemTablePadding?: string
   menuItemTableWidth?: string
   menuItemWidth?: string
+  abv?: number
   name?: string
   price?: string
+  showAbv?: boolean
+  showPrice?: boolean
 }
 
 export interface CategoryProps {

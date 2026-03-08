@@ -45,6 +45,7 @@ const ContentSection = (props: ContentBlockProps) => {
       $h1LetterSpacing={props.h1LetterSpacing}
       $h1LineHeight={props.h1LineHeight}
       $h1Margin={props.h1Margin}
+      $h1MaxWidth={props.h1MaxWidth}
       $h1Padding={props.h1Padding}
       $h1TextAlign={props.h1TextAlign}
       $h1TextShadow={props.h1TextShadow}
