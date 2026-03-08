@@ -55,7 +55,8 @@ const MenuItem = (props: MenuItemProps) => {
             <tbody>
                 <tr>
                   <td className="itemName">{props.name}</td>
-                  <td className="itemPrice">{props.price}</td>
+                  {props.showPrice && <td className="itemPrice">{props.price}</td>}
+                  {props.showAbv && props.abv != null && <td className="itemAbv">{props.abv}% ABV</td>}
                 </tr>
             </tbody>
         </table>
@@ -65,14 +66,19 @@ const MenuItem = (props: MenuItemProps) => {
 }
 
 const Category = (props: CategoryProps) => {
+  const showPrice = props.categoryName?.toLowerCase() !== 'drafts'
+  const showAbv = props.categoryName?.toLowerCase() === 'drafts'
   const renderItems = () => {
     let items = ''
     if (props.items) {
-      items = props.items.map((item: any) =>
+      items = props.items.filter((item: any) => item.is_active !== false).map((item: any) =>
         <MenuItem
           key={item.id}
           name={item.name}
           price={item.price}
+          abv={item.abv}
+          showPrice={showPrice}
+          showAbv={showAbv}
           description={item.description}
           menuItemBackground={props.menuItemBackground}
           menuItemBorder={props.menuItemBorder}

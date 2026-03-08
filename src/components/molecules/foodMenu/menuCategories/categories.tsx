@@ -7,7 +7,7 @@ import { CategoriesProps } from './types'
 interface Category {
   name: string
   description: string
-  is_active: string
+  is_active: boolean
   items: any
   id: string
   location: string
@@ -20,10 +20,11 @@ const Categories = (props: CategoriesProps) => {
   const categoryList = []
   if (categories) {
     let cnt = 1
-    for (const category of Object.values(categories)) {
+    for (const [name, category] of Object.entries(categories)) {
+      if (category['is_active'] === false) continue
       categoryList.push(
         <Category
-          categoryName={category['name']}
+          categoryName={name}
           description={category['description']}
           isActive={category['is_active']}
           items={category['items']}
